@@ -1,38 +1,41 @@
-public class ArrayHeap<E> {
+import java.util.Comparator;
 
-    private MyArrayList<E> heap;
+public class ArrayHeap<K, V> {
 
-    public ArrayHeap() {
-        heap = new MyArrayList<>();
+    private MyArrayList<Entry<K, V>> heap = new MyArrayList<>();
+    private Comparator<K> comp;
+
+    public ArrayHeap(Comparator<K> c) {
+        comp = c;
     }
 
-    public int parent(int i) {
+    private int parent(int i) {
         return (i - 1) / 2;
     }
 
-    public int left(int i) {
+    private int left(int i) {
         return 2 * i + 1;
     }
 
-    public int right(int i) {
+    private int right(int i) {
         return 2 * i + 2;
     }
 
-    public boolean hasLeft(int i) {
+    private boolean hasLeft(int i) {
         return left(i) < heap.size();
     }
 
-    public boolean hasRight(int i) {
+    private boolean hasRight(int i) {
         return right(i) < heap.size();
     }
 
-    public void swap(int i, int j) {
-        E temp = heap.get(i);
+    private void swap(int i, int j) {
+        Entry<K, V> temp = heap.get(i);
         heap.set(i, heap.get(j));
         heap.set(j, temp);
     }
 
-    public void upheap(int j) {
+    private void upheap(int j) {
         while(j > 0) {
             int p = parent(j);
             if(compare(heap.get(j), heap.get(p)) >= 0) {
@@ -43,7 +46,7 @@ public class ArrayHeap<E> {
         }
     }
 
-    public void downheap(int j) {
+    private void downheap(int j) {
         while(hasLeft(j)) {
             int leftIndex = left(j);
             int smallChildIndex = leftIndex;
@@ -61,27 +64,47 @@ public class ArrayHeap<E> {
         }
     }
 
+    public int compare(Entry<K, V> a, Entry<K, V> b) {
+        return comp.compare(a.getKey(), b.getKey());
+    }
+
+    private boolean checkKey(K key) throws IllegalArgumentException {
+        try {
+            return (comp.compare(key, key) == 0);
+        }
+        catch(ClassCastException e) {
+            throw new IllegalArgumentException("Incompatible key");
+        }
+    }
+
     public int size() {
         return heap.size();
     }
 
-    public E min() {
+    public boolean isEmpty() {
+        return heap.isEmpty();
+    }
+
+    public Entry<K, V> min() {
         if(heap.isEmpty()) {
             return null;
         }
         return heap.get(0);
     }
 
-    //TODO finish insert
-    public E insert() {
-        return null;
+    public Entry<K, V> insert(K key) {
+        checkKey(key);
+        Entry<K, V> newest = new Job<>();
+        heap.add(heap.size() - 1, newest);
+        upheap(heap.size() - 1);
+        return newest;
     }
 
-    public E removeMin() {
+    public Entry<K, V> removeMin() {
         if(heap.isEmpty()) {
             return null;
         }
-        E answer = heap.get(0);
+        Entry<K, V> answer = heap.get(0);
         swap(0, heap.size() - 1);
         heap.remove(heap.size() - 1);
         downheap(0);
