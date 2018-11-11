@@ -1,11 +1,13 @@
 import java.util.Comparator;
 
-public class ArrayHeap<E> extends PriorityQueue {
+public class ArrayHeap<K, V> { //TODO Implement my AbstractPriorityQueue class
 
-    private MyArrayList<Entry<E>> heap = new MyArrayList<>();
-    private Comparator<E> comp;
 
-    public ArrayHeap(Comparator<E> c) {
+    private MyArrayList<Entry<K, V>> heap = new MyArrayList<>();
+
+    private JobComparator comp;
+    //FIXME I swapped out the Java Default Comparator, but its buggy
+    public ArrayHeap(JobComparator c) {
         comp = c;
     }
 
@@ -30,7 +32,7 @@ public class ArrayHeap<E> extends PriorityQueue {
     }
 
     private void swap(int i, int j) {
-        Entry<E> temp = heap.get(i);
+        Entry<K, V> temp = heap.get(i);
         heap.set(i, heap.get(j));
         heap.set(j, temp);
     }
@@ -64,11 +66,11 @@ public class ArrayHeap<E> extends PriorityQueue {
         }
     }
 
-    public int compare(Entry<E> a, Entry<E> b) {
+    public int compare(Entry<K, V> a, Entry<K, V> b) {
         return comp.compare(a.getKey(), b.getKey());
     }
 
-    private boolean checkKey(E key) throws IllegalArgumentException {
+    private boolean checkKey(K key) throws IllegalArgumentException {
         try {
             return (comp.compare(key, key) == 0);
         }
@@ -85,26 +87,26 @@ public class ArrayHeap<E> extends PriorityQueue {
         return heap.isEmpty();
     }
 
-    public Entry<E> min() {
+    public Entry<K, V> min() {
         if(heap.isEmpty()) {
             return null;
         }
         return heap.get(0);
     }
 
-    public Entry<E> insert(E key) {
+    public Entry<K, V> insert(K key) {
         checkKey(key);
-        Entry<E> newest = new Job();
+        Entry<K, V> newest = new Job<>();
         heap.add(heap.size() - 1, newest);
         upheap(heap.size() - 1);
         return newest;
     }
 
-    public Entry<E> removeMin() {
+    public Entry<K, V> removeMin() {
         if(heap.isEmpty()) {
             return null;
         }
-        Entry<E> answer = heap.get(0);
+        Entry<K, V> answer = heap.get(0);
         swap(0, heap.size() - 1);
         heap.remove(heap.size() - 1);
         downheap(0);
