@@ -1,11 +1,13 @@
 import java.util.Comparator;
 
-public class ArrayHeap<K, V> {
+public class ArrayHeap<K, V> { //TODO Implement my AbstractPriorityQueue class
+
 
     private MyArrayList<Entry<K, V>> heap = new MyArrayList<>();
-    private Comparator<K> comp;
 
-    public ArrayHeap(Comparator<K> c) {
+    private JobComparator comp;
+    //FIXME I swapped out the Java Default Comparator, but its buggy
+    public ArrayHeap(JobComparator c) {
         comp = c;
     }
 
