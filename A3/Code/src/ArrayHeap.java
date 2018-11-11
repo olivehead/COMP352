@@ -1,11 +1,11 @@
 import java.util.Comparator;
 
-public class ArrayHeap<K, V> {
+public class ArrayHeap<E> extends PriorityQueue {
 
-    private MyArrayList<Entry<K, V>> heap = new MyArrayList<>();
-    private Comparator<K> comp;
+    private MyArrayList<Entry<E>> heap = new MyArrayList<>();
+    private Comparator<E> comp;
 
-    public ArrayHeap(Comparator<K> c) {
+    public ArrayHeap(Comparator<E> c) {
         comp = c;
     }
 
@@ -30,7 +30,7 @@ public class ArrayHeap<K, V> {
     }
 
     private void swap(int i, int j) {
-        Entry<K, V> temp = heap.get(i);
+        Entry<E> temp = heap.get(i);
         heap.set(i, heap.get(j));
         heap.set(j, temp);
     }
@@ -64,11 +64,11 @@ public class ArrayHeap<K, V> {
         }
     }
 
-    public int compare(Entry<K, V> a, Entry<K, V> b) {
+    public int compare(Entry<E> a, Entry<E> b) {
         return comp.compare(a.getKey(), b.getKey());
     }
 
-    private boolean checkKey(K key) throws IllegalArgumentException {
+    private boolean checkKey(E key) throws IllegalArgumentException {
         try {
             return (comp.compare(key, key) == 0);
         }
@@ -85,26 +85,26 @@ public class ArrayHeap<K, V> {
         return heap.isEmpty();
     }
 
-    public Entry<K, V> min() {
+    public Entry<E> min() {
         if(heap.isEmpty()) {
             return null;
         }
         return heap.get(0);
     }
 
-    public Entry<K, V> insert(K key) {
+    public Entry<E> insert(E key) {
         checkKey(key);
-        Entry<K, V> newest = new Job<>();
+        Entry<E> newest = new Job();
         heap.add(heap.size() - 1, newest);
         upheap(heap.size() - 1);
         return newest;
     }
 
-    public Entry<K, V> removeMin() {
+    public Entry<E> removeMin() {
         if(heap.isEmpty()) {
             return null;
         }
-        Entry<K, V> answer = heap.get(0);
+        Entry<E> answer = heap.get(0);
         swap(0, heap.size() - 1);
         heap.remove(heap.size() - 1);
         downheap(0);

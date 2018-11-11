@@ -2,19 +2,25 @@
 public class Main {
 
     public static void main(String[] args) {
-	    Job[][] jobs = null;
-	    ArrayHeap pq = new ArrayHeap(new JobComparator());
-	    for(int i = 0; i < 5; i++) {
-	        for(int j = 0; j < 100; j *= 10) {
-	            jobs[i][j] = new Job();
-            }
+	    Job[] jobs = new Job[10];
+	    for(int i = 0; i < jobs.length; i++) {
+	        jobs[i] = new Job();
         }
-        for(Job job : jobs[0]) {
+        ArrayHeap pq = new ArrayHeap<>(new JobComparator<>());
+        long startTime = System.currentTimeMillis();
+        for(Job job : jobs) {
             pq.insert(job.getKey());
         }
         while(!pq.isEmpty()) {
-            pq.removeMin();
+            Entry currentJob = pq.removeMin();
+            int key = (int) currentJob.getKey();
+            System.out.println(currentJob);
+            currentJob.setKey(--key);
+            pq.insert(currentJob);
         }
+        long endTime = System.currentTimeMillis();
+        long totalTime = endTime - startTime;
+        System.out.println(totalTime);
     }
 
 }

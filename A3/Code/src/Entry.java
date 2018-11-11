@@ -1,4 +1,4 @@
-public interface Entry<K, V> {
-    K getKey();
-    V getValue();
+public interface Entry<E> {
+    E getKey();
+    void setKey(int i);
 }

@@ -1,13 +1,13 @@
-public class Job<K, V> implements Entry<K, V> {
+public class Job<E> implements Entry<E> {
 
     @Override
-    public K getKey() {
+    public E getKey() {
         return null;
     }
 
     @Override
-    public V getValue() {
-        return null;
+    public void setKey(int i) {
+
     }
 
 }
