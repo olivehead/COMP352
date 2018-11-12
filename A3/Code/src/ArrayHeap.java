@@ -2,8 +2,7 @@ import java.util.Comparator;
 
 public class ArrayHeap<K, V> extends AbstractPriorityQueue<K, V> {
 
-    //TODO change back to private
-    public MyArrayList<Entry<K, V>> heap = new MyArrayList<>();
+    private MyArrayList<Entry<K, V>> heap = new MyArrayList<>();
 
     public ArrayHeap() {
         super();
