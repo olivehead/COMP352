@@ -1,7 +1,7 @@
 import java.util.Comparator;
 
 public class JobComparator implements Comparator<Integer> {
-
+    //TODO WTF is going on here
     public int compare(Integer a, Integer b) {
 
         if(a > b) {
