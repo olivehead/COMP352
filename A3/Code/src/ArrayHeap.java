@@ -1,14 +1,16 @@
 import java.util.Comparator;
 
-public class ArrayHeap<K, V> { //TODO Implement my AbstractPriorityQueue class
+public class ArrayHeap<K, V> extends AbstractPriorityQueue<K, V> {
 
+    //TODO change back to private
+    public MyArrayList<Entry<K, V>> heap = new MyArrayList<>();
 
-    private MyArrayList<Entry<K, V>> heap = new MyArrayList<>();
+    public ArrayHeap() {
+        super();
+    }
 
-    private JobComparator comp;
-    //FIXME I swapped out the Java Default Comparator, but its buggy
-    public ArrayHeap(JobComparator c) {
-        comp = c;
+    public ArrayHeap(Comparator<K> comp) {
+        super(comp);
     }
 
     private int parent(int i) {
@@ -66,25 +68,17 @@ public class ArrayHeap<K, V> { //TODO Implement my AbstractPriorityQueue class
         }
     }
 
-    public int compare(Entry<K, V> a, Entry<K, V> b) {
-        return comp.compare(a.getKey(), b.getKey());
-    }
-
-    private boolean checkKey(K key) throws IllegalArgumentException {
-        try {
-            return (comp.compare(key, key) == 0);
-        }
-        catch(ClassCastException e) {
-            throw new IllegalArgumentException("Incompatible key");
-        }
-    }
-
     public int size() {
         return heap.size();
     }
 
     public boolean isEmpty() {
         return heap.isEmpty();
+    }
+
+    @Override
+    public Entry<K, V> insert(K key, V value) throws IllegalArgumentException {
+        return null;
     }
 
     public Entry<K, V> min() {
@@ -94,10 +88,9 @@ public class ArrayHeap<K, V> { //TODO Implement my AbstractPriorityQueue class
         return heap.get(0);
     }
 
-    public Entry<K, V> insert(K key) {
-        checkKey(key);
-        Entry<K, V> newest = new Job<>();
-        heap.add(heap.size() - 1, newest);
+    public Entry<K, V> insert(Job j) throws IllegalArgumentException {
+        Entry<K, V> newest = j;
+        heap.add(heap.size(), newest);
         upheap(heap.size() - 1);
         return newest;
     }

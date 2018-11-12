@@ -1,9 +1,11 @@
 import java.util.Comparator;
 
 public abstract class AbstractPriorityQueue<K,V> implements PriorityQueue<K,V> {
+
     protected static class PQEntry<K,V> implements Entry<K,V> {
         private K k;
         private V v;
+
         public PQEntry(K key, V value) {
             k = key;
             v = value;
@@ -27,13 +29,13 @@ public abstract class AbstractPriorityQueue<K,V> implements PriorityQueue<K,V> {
             this.v = v;
         }
 
-
-
     }
 
     private Comparator<K> comp;
 
-    protected AbstractPriorityQueue(Comparator<K> c) { comp = c;}
+    protected AbstractPriorityQueue(Comparator<K> c) {
+        comp = c;
+    }
 
     protected AbstractPriorityQueue() {
         comp = null;
@@ -47,8 +49,12 @@ public abstract class AbstractPriorityQueue<K,V> implements PriorityQueue<K,V> {
         try{
             return (comp.compare(key,key) == 0);
         } catch (ClassCastException e) {
-            throw new IllegalArgumentException("Imcompatible key");
+            throw new IllegalArgumentException("Incompatible key");
         }
     }
-    public boolean isEmpty() { return size() == 0; }
+
+    public boolean isEmpty() {
+        return size() == 0;
+    }
+
 }

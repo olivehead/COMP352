@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         int[] maxNumberOfJobs = new int[] {100,1000,10000};
 	    Job<Integer,String>[][] jobs = new Job[maxNumberOfJobs.length][maxNumberOfJobs[maxNumberOfJobs.length-1]];
-	    ArrayHeap<Integer,String> pq = new ArrayHeap(new JobComparator());
+	    PriorityQueue<Integer,String> pq = new ArrayHeap<>(new JobComparator());
 	    for(int i = 0; i < maxNumberOfJobs.length; i++) {
 	        for(int j = 0; j < maxNumberOfJobs[i]; j++) {
 	            jobs[i][j] = new Job<>();
@@ -14,7 +14,6 @@ public class Main {
             Job.resetCounter();
         }
         for(Job job : jobs[0]) {
-            pq.insert((Integer) job.getKey());
         }
         while(!pq.isEmpty()) {
             pq.removeMin();

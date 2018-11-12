@@ -1,6 +1,6 @@
-import java.util.*;
+import java.util.Random;
 
-public class Job<K,V> implements Entry<K, V> {
+public class Job<K,V> implements Entry<Integer, String> {
     private K key;
     private V value;
     private String jobName;
@@ -16,15 +16,15 @@ public class Job<K,V> implements Entry<K, V> {
     //Keep track of the number of jobs created to name the jobs accordingly
     private static int jobCount;
 
-    private final int MAXJOBLENGTH = 70;
-    private final int MAXJOBPRIORITY = 40;
+    private static final int MAXJOBLENGTH = 70;
+    private static final int MAXJOBPRIORITY = 40;
 
     public Job() {
         Random random = new Random();
-        jobName = "JOB_" + (jobCount++ + 1);
-        jobLength = random.nextInt( MAXJOBLENGTH + 1);
+        jobName = "Job_" + (jobCount++ + 1);
+        jobLength = random.nextInt( MAXJOBLENGTH + 1) + 1;
         currentLength = jobLength;
-        jobPriority = random.nextInt(MAXJOBPRIORITY +1);
+        jobPriority = random.nextInt(MAXJOBPRIORITY +1) + 1;
         finalPriority = jobPriority;
         entryTime = 0;
         endTime = 0;
@@ -39,8 +39,8 @@ public class Job<K,V> implements Entry<K, V> {
     @Override
     public String toString() {
         return "Now executing " + jobName + ". " + "Job Length: " + jobLength + " cycles, " +
-                "Current remaining length: " + currentLength + "cycles, " + "Initial Priority: " +
-                jobPriority + "Current Priority: " + finalPriority;
+                "Current remaining length: " + currentLength + ", cycles," + "\nInitial Priority: " +
+                jobPriority + ", Current Priority: " + finalPriority;
     }
 
     public String getJobName() {
@@ -133,13 +133,13 @@ public class Job<K,V> implements Entry<K, V> {
     }
 
     @Override
-    public K getKey() {
-        return key;
+    public Integer getKey() {
+        return jobPriority;
     }
 
     @Override
-    public V getValue() {
-        return value;
+    public String getValue() {
+        return jobName;
     }
 
 }
