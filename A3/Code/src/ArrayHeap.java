@@ -4,10 +4,6 @@ public class ArrayHeap<K, V> extends AbstractPriorityQueue<K, V> {
 
     private MyArrayList<Entry<K, V>> heap = new MyArrayList<>();
 
-    public ArrayHeap() {
-        super();
-    }
-
     public ArrayHeap(Comparator<K> comp) {
         super(comp);
     }

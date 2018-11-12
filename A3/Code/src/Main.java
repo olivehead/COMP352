@@ -13,9 +13,7 @@ public class Main {
         long cycleCount = 0;
         int n = 10000;
 
-        PrintWriter fout = null;
-        try {
-            fout = new PrintWriter("out.txt");
+        try (PrintWriter fout = new PrintWriter("out.txt")) {
             fout.println();
             for (int i = 100; i <= n; i *= 10) {
                 Job[] jobs = new Job[i];
@@ -73,14 +71,8 @@ public class Main {
                 cycleCount = 0;
 
             }
-        }
-        catch (FileNotFoundException e) {
+        } catch (FileNotFoundException e) {
             e.printStackTrace();
-        }
-        finally {
-            if(fout != null) {
-                fout.close();
-            }
         }
     }
 

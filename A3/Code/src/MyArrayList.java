@@ -1,6 +1,6 @@
 public class MyArrayList<E> {
 
-    static final int INITIAL_CAPACITY = 10;
+    private static final int INITIAL_CAPACITY = 10;
     private int capacity;
     private E[] data;
     private int size;
