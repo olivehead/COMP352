@@ -18,6 +18,8 @@ public class Main {
         //Heap PQ Testing:
         try (PrintWriter fout = new PrintWriter("out.txt")) {
             fout.println();
+            fout.println("ArrayHeap Simulation");
+            fout.println();
             for (int i = 100; i <= n; i *= 10) {
                 Job[] jobs = new Job[i];
                 ArrayHeap<Integer, Job> pq = new ArrayHeap<>(new JobComparator());
@@ -75,13 +77,16 @@ public class Main {
                 cycleCount = 0;
 
             }
-        } catch (FileNotFoundException e) {
+        }
+        catch (FileNotFoundException e) {
             e.printStackTrace();
         }
 
         //Sorted PQ Testing:
         try (PrintWriter fout = new PrintWriter( new FileOutputStream( new File("out.txt"), true))) {
-            fout.append("\nSorted Priority Queue Simulation:\n");
+            fout.println();
+            fout.println("Sorted Priority Queue Simulation:");
+            fout.println();
             for (int i = 100; i <= n; i *= 10) {
                 Job[] jobs = new Job[i];
                 SortedPriorityQueue<Integer, Job> pqSorted = new SortedPriorityQueue<>(new JobComparator());
@@ -127,19 +132,20 @@ public class Main {
                 endTime = System.currentTimeMillis();
                 totalTime = endTime - startTime;
 
-                fout.append("\nCurrent system time (cycles): " + cycleCount);
-                fout.append("\nTotal number of jobs executed: " + i + " jobs");
-                fout.append("\nAverage process waiting time: " + averageWaitTime + " cycles");
-                fout.append("\nTotal number of priority changes: " + priorityChanges);
-                fout.append("\nActual system time needed to execute all jobs: " + totalTime + " ms");
-                fout.append("\n");
+                fout.println("Current system time (cycles): " + cycleCount);
+                fout.println("Total number of jobs executed: " + i + " jobs");
+                fout.println("Average process waiting time: " + averageWaitTime + " cycles");
+                fout.println("Total number of priority changes: " + priorityChanges);
+                fout.println("Actual system time needed to execute all jobs: " + totalTime + " ms");
+                fout.println();
 
                 priorityChanges = 0;
                 averageWaitTime = 0;
                 cycleCount = 0;
 
             }
-        } catch (FileNotFoundException e) {
+        }
+        catch (FileNotFoundException e) {
             e.printStackTrace();
         }
     }
