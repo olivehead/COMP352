@@ -21,6 +21,7 @@ public class Main {
                 for (int j = 0; j < jobs.length; j++) {
                     jobs[j] = new Job();
                 }
+                Job.resetCounter();
                 startTime = System.currentTimeMillis();
                 for (int j = 0; j < i; j++) {
                     pq.insert(jobs[j]);
