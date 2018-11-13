@@ -34,6 +34,18 @@ public class SortedPriorityQueue<K, V> extends AbstractPriorityQueue<K, V> {
         if (list.isEmpty()) return null;
         return list.remove(list.first());
     }
+
+    @Override
+    public void starvation() {
+        Job oldest = (Job) findOldest();
+        oldest.setJobPriority(1);
+    }
+
+    @Override
+    public Entry<K, V> findOldest() {
+        return list.findMax().getElement();
+    }
+
     public int size() { return list.size(); }
 
 //    public static <E> void pqSort(PositionalList<E> S, PriorityQueue<E, V> P) {

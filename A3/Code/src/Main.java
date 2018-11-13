@@ -41,24 +41,18 @@ public class Main {
                     if (j.getCurrentLength() != 0) {
                         j.setLastRun(cycleCount);
                         pq.insert(j);
-//                    if(cycleCount % 30 == 0) {
-//                        //TODO implement findOldest
-//                        Job oldest = pq.findOldest();
-//                        oldest.setJobPriority(1);
-//                        pq.insert(oldest);
-//                        priorityChanges++;
-//                    }
+                    if(cycleCount % 30 == 0) {
+                        pq.starvation();
+                        priorityChanges++;
+                    }
                     } else {
                         j.setEndTime(cycleCount);
                         j.setWaitTime(j.getEndTime() - j.getJobLength() - j.getEntryTime());
                         averageWaitTime += j.getWaitTime();
-//                    if(cycleCount % 30 == 0) {
-//                        //TODO implement findOldest
-//                        Job oldest = pq.findOldest();
-//                        oldest.setJobPriority(1);
-//                        pq.insert(oldest);
-//                        priorityChanges++;
-//                    }
+                    if(cycleCount % 30 == 0) {
+                        pq.starvation();
+                        priorityChanges++;
+                    }
                     }
                 }
                 averageWaitTime /= i;

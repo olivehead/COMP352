@@ -22,9 +22,9 @@ public class Job<K,V> implements Entry<Integer, String> {
     public Job() {
         Random random = new Random();
         jobName = "Job_" + (jobCount++ + 1);
-        jobLength = random.nextInt( MAXJOBLENGTH + 1) + 1;
+        jobLength = random.nextInt(MAXJOBLENGTH) + 1;
         currentLength = jobLength;
-        jobPriority = random.nextInt(MAXJOBPRIORITY +1) + 1;
+        jobPriority = random.nextInt(MAXJOBPRIORITY) + 1;
         finalPriority = jobPriority;
         entryTime = 0;
         endTime = 0;

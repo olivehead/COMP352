@@ -87,6 +87,7 @@ public class ArrayHeap<K, V> extends AbstractPriorityQueue<K, V> {
         Entry<K, V> newest = j;
         heap.add(heap.size(), newest);
         upheap(heap.size() - 1);
+        findOldest();
         return newest;
     }
 
@@ -98,7 +99,18 @@ public class ArrayHeap<K, V> extends AbstractPriorityQueue<K, V> {
         swap(0, heap.size() - 1);
         heap.remove(heap.size() - 1);
         downheap(0);
+        findOldest();
         return answer;
+    }
+
+    public Entry findOldest() {
+        return heap.findMax();
+    }
+
+    public void starvation() {
+        Job oldest = (Job) findOldest();
+        oldest.setJobPriority(1);
+        upheap(oldest.getJobPriority());
     }
 
 }

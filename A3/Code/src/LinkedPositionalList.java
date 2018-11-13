@@ -143,4 +143,24 @@ public class LinkedPositionalList<E> implements PositionalList<E> {
         node.setPrev(null);
         return answer;
     }
+
+    //TODO finish to implement starvation for Sorted Priority Queue, currently doesn't work
+    @Override
+    public Position<E> findMax() {
+        Node position = head;
+        Node max = null;
+        while(position != null) {
+            Job maxJob = (Job) max.getElement();
+            Job current = (Job) position.getElement();
+            if(max == null) {
+                max = position;
+            }
+            else if(maxJob.getEntryTime() < current.getEntryTime()) {
+                max = position;
+            }
+            position.setNext(position.next);
+        }
+        return max;
+    }
+
 }
