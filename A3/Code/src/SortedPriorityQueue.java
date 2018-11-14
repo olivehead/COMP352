@@ -10,7 +10,7 @@ public class SortedPriorityQueue<K, V> extends AbstractPriorityQueue<K, V> {
 
     @Override
     public Entry<K, V> insert(K key, V value) throws IllegalArgumentException {
-        return null;
+            return null;
     }
 
     public Entry<K,V> insert(Job j) throws IllegalArgumentException {

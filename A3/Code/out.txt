@@ -1,39 +1,39 @@
 
-Current system time (cycles): 3421
+Current system time (cycles): 3808
 Total number of jobs executed: 100 jobs
-Average process waiting time: 1697 cycles
+Average process waiting time: 1828 cycles
 Total number of priority changes: 0
-Actual system time needed to execute all jobs: 78 ms
+Actual system time needed to execute all jobs: 504 ms
 
-Current system time (cycles): 36744
+Current system time (cycles): 35387
 Total number of jobs executed: 1000 jobs
-Average process waiting time: 17853 cycles
+Average process waiting time: 17211 cycles
 Total number of priority changes: 0
-Actual system time needed to execute all jobs: 683 ms
+Actual system time needed to execute all jobs: 1071 ms
 
-Current system time (cycles): 362740
+Current system time (cycles): 359693
 Total number of jobs executed: 10000 jobs
-Average process waiting time: 177138 cycles
+Average process waiting time: 175730 cycles
 Total number of priority changes: 0
-Actual system time needed to execute all jobs: 3743 ms
+Actual system time needed to execute all jobs: 7299 ms
 
 
 Sorted Priority Queue Simulation:
 
-Current system time (cycles): 3590
+Current system time (cycles): 3756
 Total number of jobs executed: 100 jobs
-Average process waiting time: 1665 cycles
+Average process waiting time: 1719 cycles
 Total number of priority changes: 0
-Actual system time needed to execute all jobs: 67 ms
+Actual system time needed to execute all jobs: 359 ms
 
-Current system time (cycles): 35939
+Current system time (cycles): 35044
 Total number of jobs executed: 1000 jobs
-Average process waiting time: 17784 cycles
+Average process waiting time: 17143 cycles
 Total number of priority changes: 0
-Actual system time needed to execute all jobs: 407 ms
+Actual system time needed to execute all jobs: 2031 ms
 
-Current system time (cycles): 358884
+Current system time (cycles): 360476
 Total number of jobs executed: 10000 jobs
-Average process waiting time: 175621 cycles
+Average process waiting time: 177412 cycles
 Total number of priority changes: 0
-Actual system time needed to execute all jobs: 21403 ms
+Actual system time needed to execute all jobs: 117648 ms
