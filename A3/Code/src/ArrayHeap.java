@@ -109,8 +109,7 @@ public class ArrayHeap<K, V> extends AbstractPriorityQueue<K, V> {
 
     public void starvation() {
         Job oldest = (Job) findOldest();
-        oldest.setJobPriority(1);
-        upheap(oldest.getJobPriority());
+        oldest.setFinalPriority(1);
     }
 
 }

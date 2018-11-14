@@ -97,13 +97,10 @@ public class MyArrayList<E> {
     }
 
     public Job findMax() {
-        Job max = null;
+        Job max = (Job) data[0];
         for(int i = 0; i < size; i++) {
             Job current = (Job) data[i];
-            if(max == null) {
-                max = current;
-            }
-            else if(current.getEntryTime() > max.getEntryTime()) {
+            if(current.getEntryTime() > max.getEntryTime() && current.getLastRun() == 0) {
                 max = current;
             }
         }

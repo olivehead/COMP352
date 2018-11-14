@@ -10,7 +10,7 @@ public class Test {
         long cycleCount = 0;
         int n = 10;
 
-        SortedPriorityQueue<Integer, Job> pq = new SortedPriorityQueue<>(new JobComparator());
+        ArrayHeap<Integer, Job> pq = new ArrayHeap<>(new JobComparator());
         Job[] jobs = new Job[n];
         for(int i = 0; i < n; i++) {
             jobs[i] = new Job();
@@ -25,25 +25,25 @@ public class Test {
             j.setCurrentLength(j.getCurrentLength() - 1);
             cycleCount += 1;
             System.out.println(j);
-            //System.out.println(pq.findOldest());
+            System.out.println(pq.findOldest());
             System.out.println(cycleCount);
             System.out.println();
             if(j.getCurrentLength() != 0) {
                 j.setLastRun(cycleCount);
                 pq.insert(j);
-//                if(cycleCount % 30 == 0) {
-//                    pq.starvation();
-//                    priorityChanges++;
-//                }
+                if(cycleCount % 30 == 0) {
+                    pq.starvation();
+                    priorityChanges++;
+                }
             }
             else {
                 j.setEndTime(cycleCount);
                 j.setWaitTime(j.getEndTime() - j.getJobLength() - j.getEntryTime());
                 averageWaitTime += j.getWaitTime();
-//                if(cycleCount % 30 == 0) {
-//                    pq.starvation();
-//                    priorityChanges++;
-//                }
+                if(cycleCount % 30 == 0) {
+                    pq.starvation();
+                    priorityChanges++;
+                }
             }
         }
         averageWaitTime /= n;

@@ -134,7 +134,7 @@ public class Job<K,V> implements Entry<Integer, String> {
 
     @Override
     public Integer getKey() {
-        return jobPriority;
+        return finalPriority;
     }
 
     @Override
