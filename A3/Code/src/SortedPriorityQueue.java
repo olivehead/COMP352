@@ -43,7 +43,7 @@ public class SortedPriorityQueue<K, V> extends AbstractPriorityQueue<K, V> {
     public void starvation() {
         Job oldest = findOldest();
         if(oldest != null) {
-            oldest.setJobPriority(1);
+            oldest.setFinalPriority(1);
         }
     }
 

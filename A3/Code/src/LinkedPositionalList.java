@@ -196,6 +196,9 @@ public class LinkedPositionalList<E> implements PositionalList<E> {
         Job maxJob = (Job) head.next.getElement();
         while(position != null) {
             Job current = (Job) position.getElement();
+            if(current == null) {
+                return maxJob;
+            }
             if(maxJob == null && current.getLastRun() == 0) {
                 maxJob = (Job) position.getElement();
             }
