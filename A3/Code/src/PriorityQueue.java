@@ -15,8 +15,6 @@ public interface PriorityQueue<K,V> {
      * @return if the PQ is empty
      */
     boolean isEmpty();
-    Entry<K,V> insert(K key, V value) throws IllegalArgumentException;
-    Entry<K,V> min();
 
     /**
      * Returns and removes the element with the smallest key in the PQ

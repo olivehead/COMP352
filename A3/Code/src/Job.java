@@ -7,8 +7,6 @@ import java.util.Random;
  * @param <V> jobName
  */
 public class Job<K,V> implements Entry<Integer, String> {
-    private K key;
-    private V value;
     private String jobName;
     private int jobLength;
     private int currentLength;
@@ -53,20 +51,8 @@ public class Job<K,V> implements Entry<Integer, String> {
                 jobPriority + ", Current Priority: " + finalPriority;
     }
 
-    public String getJobName() {
-        return jobName;
-    }
-
-    public void setJobName(String jobName) {
-        this.jobName = jobName;
-    }
-
     public int getJobLength() {
         return jobLength;
-    }
-
-    public void setJobLength(int jobLength) {
-        this.jobLength = jobLength;
     }
 
     public int getCurrentLength() {
@@ -75,18 +61,6 @@ public class Job<K,V> implements Entry<Integer, String> {
 
     public void setCurrentLength(int currentLength) {
         this.currentLength = currentLength;
-    }
-
-    public int getJobPriority() {
-        return jobPriority;
-    }
-
-    public void setJobPriority(int jobPriority) {
-        this.jobPriority = jobPriority;
-    }
-
-    public int getFinalPriority() {
-        return finalPriority;
     }
 
     public void setFinalPriority(int finalPriority) {
@@ -126,30 +100,9 @@ public class Job<K,V> implements Entry<Integer, String> {
         this.lastRun = lastRun;
     }
 
-    public static int getJobCount() {
-        return jobCount;
-    }
-
-    public static void setJobCount(int jobCount) {
-        Job.jobCount = jobCount;
-    }
-
-    public void setKey(K key) {
-        this.key = key;
-    }
-
-    public void setValue(V value) {
-        this.value = value;
-    }
-
     @Override
     public Integer getKey() {
         return finalPriority;
-    }
-
-    @Override
-    public String getValue() {
-        return jobName;
     }
 
 }
