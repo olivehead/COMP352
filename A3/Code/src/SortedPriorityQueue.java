@@ -1,7 +1,9 @@
 import java.util.Comparator;
 
 public class SortedPriorityQueue<K, V> extends AbstractPriorityQueue<K, V> {
-    //TODO Implement Doubly Linked List for Sorted & Unsorted PQ
+    /**
+     * Doubly Linked List implemented using AbstractPriorityQueue
+     */
     private PositionalList<Entry<K,V>> list = new LinkedPositionalList<>();
 
     public SortedPriorityQueue() { super(); }
@@ -13,6 +15,12 @@ public class SortedPriorityQueue<K, V> extends AbstractPriorityQueue<K, V> {
             return null;
     }
 
+    /**
+     * Inserts a job and returns the entry created.
+     * @param j Job
+     * @return key-value pair created within the linked list
+     * @throws IllegalArgumentException
+     */
     public Entry<K,V> insert(Job j) throws IllegalArgumentException {
         Entry<K,V> newest = j;
         Position<Entry<K,V>> walk = list.last();
@@ -40,6 +48,9 @@ public class SortedPriorityQueue<K, V> extends AbstractPriorityQueue<K, V> {
     }
 
     @Override
+    /**
+     * Finds oldest job in the PQ and changes the priority to 1
+     */
     public void starvation() {
         Job oldest = findOldest();
         if(oldest != null) {
@@ -48,12 +59,4 @@ public class SortedPriorityQueue<K, V> extends AbstractPriorityQueue<K, V> {
     }
 
     public int size() { return list.size(); }
-
-//    public static <E> void pqSort(PositionalList<E> S, PriorityQueue<E, V> P) {
-//        int n = S.size();
-//        for (int i=0; i<n; i++) {
-//            E element = S.remove(S.first());
-//            P.insert(element, null);
-//        }
-//    }
 }

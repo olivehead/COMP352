@@ -1,5 +1,11 @@
 import java.util.Random;
 
+/**
+ * Defines CPU job, and is sorted in the {@link PriorityQueue} using the CurrentPriority as the Key,
+ * and the JobName as the Value.
+ * @param <K> jobPriority
+ * @param <V> jobName
+ */
 public class Job<K,V> implements Entry<Integer, String> {
     private K key;
     private V value;
@@ -32,6 +38,10 @@ public class Job<K,V> implements Entry<Integer, String> {
         lastRun = 0;
     }
 
+    /**
+     * Resets the jobCounter to aid in the
+     * creation of another array of jobs
+     */
     public static void resetCounter() {
         jobCount = 0;
     }

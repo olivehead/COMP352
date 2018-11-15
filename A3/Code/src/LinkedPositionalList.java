@@ -5,8 +5,8 @@ public class LinkedPositionalList<E> implements PositionalList<E> {
 
     private static class Node<E> implements Position<E> {
         private E element; // reference to the element stored at this node
-        private Node<E> prev; // reference to the previous node in the list
-        private Node<E> next; // reference to the subsequent node in the list
+        private Node<E> prev; // reference to the previous node
+        private Node<E> next; // reference to the next node
 
         public Node(E e, Node<E> p, Node<E> n) {
             element = e;
@@ -14,8 +14,8 @@ public class LinkedPositionalList<E> implements PositionalList<E> {
             next = n;
         }
         public E getElement() throws IllegalStateException {
-//            if (next == null)
-//                throw new IllegalStateException("Position no longer VALID");
+            if (next == null)
+                throw new IllegalStateException("Position no longer VALID");
             return element;
         }
 
@@ -39,16 +39,27 @@ public class LinkedPositionalList<E> implements PositionalList<E> {
             this.next = next;
         }
     }
+
+    //head, tail and size for linked list
     private Node<E> head;
     private Node<E> tail;
     private int size = 0;
 
+    /**\
+     * Empty constructor
+     */
     public LinkedPositionalList() {
         head = new Node<>(null,null,null);
         tail = new Node<>(null,head,null);
         head.setNext(tail);
     }
 
+    /**
+     * validate position and returns node, internal helper function.
+     * @param p Node at position
+     * @return  Node at position
+     * @throws IllegalArgumentException
+     */
     private Node<E> validate(Position<E> p) throws IllegalArgumentException {
         if (!(p instanceof Node)) throw new IllegalArgumentException("Invalid p");
         Node<E> node = (Node<E>) p;
@@ -57,6 +68,11 @@ public class LinkedPositionalList<E> implements PositionalList<E> {
         return node;
     }
 
+    /**
+     * Returns the given node as a Position
+     * @param node
+     * @return Node as a Position<E>
+     */
     private Position<E> position(Node<E> node) {
         if (node == head || node == tail)
             return null; // do not expose user to the sentinels
@@ -95,6 +111,13 @@ public class LinkedPositionalList<E> implements PositionalList<E> {
         return position(node.getPrev());
     }
 
+    /**
+     * Adds element e to the lined list between the given nodes.
+     * @param e element
+     * @param pred previous element to position<E></E>
+     * @param succ next element to position<E></E>
+     * @return  newly placed element in list
+     */
     private Position<E> addBetween(E e, Node<E> pred, Node<E> succ) {
         Node<E> newest = new Node<>(e,pred,succ);
         pred.setNext(newest);
@@ -125,6 +148,9 @@ public class LinkedPositionalList<E> implements PositionalList<E> {
     }
 
     @Override
+    /**
+     * Replaces element stored at Position p and returns the replaced element.
+     */
     public E set(Position<E> p, E e) throws IllegalArgumentException {
         Node<E> node = validate(p);
         E answer = node.getElement();
@@ -133,6 +159,9 @@ public class LinkedPositionalList<E> implements PositionalList<E> {
     }
 
     @Override
+    /**
+     * Remove the element stored at Position p and returns it (invalidating p)
+     */
     public E remove(Position<E> p) throws IllegalArgumentException {
         Node<E> node = validate(p);
         Node<E> predecessor = node.getPrev();
@@ -141,12 +170,12 @@ public class LinkedPositionalList<E> implements PositionalList<E> {
         successor.setPrev(predecessor);
         size--;
         E answer = node.getElement();
-        node.setElement(null); // help with garbage collection
-        node.setNext(null); // and convention for defunct node
+        node.setElement(null);
+        node.setNext(null);
         node.setPrev(null);
         return answer;
     }
-    //---------------- nested PositionIterator class ----------------
+    //**************************NOT USED*****************************************
     private class PositionIterator implements Iterator<Position<E>> {
         private Position<E> cursor = first(); // position of the next element to report
         private Position<E> recent = null; // position of last reported element
@@ -190,7 +219,10 @@ public class LinkedPositionalList<E> implements PositionalList<E> {
     public Iterator<E> iterator() { return new ElementIterator(); }
 
 
-    //TODO finish to implement starvation for Sorted Priority Queue, currently doesn't work
+    /**
+     * Find starved element in the list by comparing the EntryTime
+     * @return Element which has been waiting the longest
+     */
     public Job findMax() {
         Node position = head.next;
         Job maxJob = (Job) head.next.getElement();
