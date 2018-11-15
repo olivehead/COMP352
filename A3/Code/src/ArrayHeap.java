@@ -1,39 +1,82 @@
 import java.util.Comparator;
 
+/**
+ * This class is an implementation of a PQ using an Array based Heap
+ * @param <K> a key
+ * @param <V> a value
+ */
 public class ArrayHeap<K, V> extends AbstractPriorityQueue<K, V> {
 
     private MyArrayList<Entry<K, V>> heap = new MyArrayList<>();
 
+    /**
+     * Constructor for the heap
+     * @param comp a comparator for jobs
+     */
     public ArrayHeap(Comparator<K> comp) {
         super(comp);
     }
 
+    /**
+     * returns the parent of the given node
+     * @param i the position of the desired node
+     * @return the position of the parent node
+     */
     private int parent(int i) {
         return (i - 1) / 2;
     }
 
+    /**
+     * This method returns the position of the left child of the given node
+     * @param i the position of the given node
+     * @return the position of the left child of the node
+     */
     private int left(int i) {
         return 2 * i + 1;
     }
 
+    /**
+     * This method returns the position of the right child of the given node
+     * @param i the position of the node
+     * @return the position of the right child of the given node
+     */
     private int right(int i) {
         return 2 * i + 2;
     }
 
+    /**
+     * returns whether or not the given node has a left child
+     * @param i the position of the given node
+     * @return if the given node has a left child
+     */
     private boolean hasLeft(int i) {
         return left(i) < heap.size();
     }
 
+    /**
+     * returns whether or not the given node has a right child
+     * @param i the position of the given node
+     * @return if the given node has a right child
+     */
     private boolean hasRight(int i) {
         return right(i) < heap.size();
     }
 
+    /**
+     * swaps two nodes in the heap
+     * @param i the position of the first node
+     * @param j the position of the second node
+     */
     private void swap(int i, int j) {
         Entry<K, V> temp = heap.get(i);
         heap.set(i, heap.get(j));
         heap.set(j, temp);
     }
 
+    /**
+     * this method takes a node and moves it up if it is smaller than its parent node
+     * @param j the position of the given node
+     */
     private void upheap(int j) {
         while(j > 0) {
             int p = parent(j);
