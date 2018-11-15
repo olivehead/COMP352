@@ -35,10 +35,16 @@ public class SortedPriorityQueue<K, V> extends AbstractPriorityQueue<K, V> {
         return list.remove(list.first());
     }
 
+    public Job findOldest() {
+        return list.findMax();
+    }
+
     @Override
     public void starvation() {
-        Job oldest = (Job) list.findMax();
-        oldest.setJobPriority(1);
+        Job oldest = findOldest();
+        if(oldest != null) {
+            oldest.setJobPriority(1);
+        }
     }
 
     public int size() { return list.size(); }

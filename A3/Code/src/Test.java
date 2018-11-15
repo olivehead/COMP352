@@ -10,7 +10,7 @@ public class Test {
         long cycleCount = 0;
         int n = 10;
 
-        ArrayHeap<Integer, Job> pq = new ArrayHeap<>(new JobComparator());
+        SortedPriorityQueue<Integer, Job> pq = new SortedPriorityQueue<>(new JobComparator());
         Job[] jobs = new Job[n];
         for(int i = 0; i < n; i++) {
             jobs[i] = new Job();

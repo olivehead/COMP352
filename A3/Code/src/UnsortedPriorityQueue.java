@@ -34,5 +34,10 @@ public class UnsortedPriorityQueue<K, V> extends AbstractPriorityQueue<K, V>  {
         return list.remove(findMin());
     }
 
+    @Override
+    public void starvation() {
+
+    }
+
     public int size() { return list.size(); }
 }

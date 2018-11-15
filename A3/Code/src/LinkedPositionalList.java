@@ -14,8 +14,8 @@ public class LinkedPositionalList<E> implements PositionalList<E> {
             next = n;
         }
         public E getElement() throws IllegalStateException {
-            if (next == null)
-                throw new IllegalStateException("Position no longer VALID");
+//            if (next == null)
+//                throw new IllegalStateException("Position no longer VALID");
             return element;
         }
 
@@ -191,22 +191,20 @@ public class LinkedPositionalList<E> implements PositionalList<E> {
 
 
     //TODO finish to implement starvation for Sorted Priority Queue, currently doesn't work
-    @Override
-    public Position<E> findMax() {
-        Node position = head;
-        Node max = null;
+    public Job findMax() {
+        Node position = head.next;
+        Job maxJob = (Job) head.next.getElement();
         while(position != null) {
-            Job maxJob = (Job) max.getElement();
             Job current = (Job) position.getElement();
-            if(max == null) {
-                max = position;
+            if(maxJob == null && current.getLastRun() == 0) {
+                maxJob = (Job) position.getElement();
             }
-            else if(maxJob.getEntryTime() < current.getEntryTime()) {
-                max = position;
+            if(maxJob != null && maxJob.getEntryTime() < current.getEntryTime() && current.getLastRun() == 0) {
+                maxJob = (Job) position.getElement();
             }
-            position.setNext(position.next);
+            position = position.next;
         }
-        return max;
+        return maxJob;
     }
 
 }
