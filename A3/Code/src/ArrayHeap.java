@@ -88,6 +88,10 @@ public class ArrayHeap<K, V> extends AbstractPriorityQueue<K, V> {
         }
     }
 
+    /**
+     * This method takes a node, and pushes it to the bottom of the heap if it is bigger than its children
+     * @param j the position of the given node
+     */
     private void downheap(int j) {
         while(hasLeft(j)) {
             int leftIndex = left(j);
@@ -106,26 +110,28 @@ public class ArrayHeap<K, V> extends AbstractPriorityQueue<K, V> {
         }
     }
 
+    /**
+     * returns the size of the heap
+     * @return the size of the heap
+     */
     public int size() {
         return heap.size();
     }
 
+    /**
+     * returns whether or not the heap is empty
+     * @return if the heap is empty
+     */
     public boolean isEmpty() {
         return heap.isEmpty();
     }
 
-    @Override
-    public Entry<K, V> insert(K key, V value) throws IllegalArgumentException {
-        return null;
-    }
-
-    public Entry<K, V> min() {
-        if(heap.isEmpty()) {
-            return null;
-        }
-        return heap.get(0);
-    }
-
+    /**
+     * inserts a new element in the heap
+     * @param j a job
+     * @return the job that was just inserted
+     * @throws IllegalArgumentException
+     */
     public Entry<K, V> insert(Job j) throws IllegalArgumentException {
         Entry<K, V> newest = j;
         heap.add(heap.size(), newest);
@@ -134,6 +140,10 @@ public class ArrayHeap<K, V> extends AbstractPriorityQueue<K, V> {
         return newest;
     }
 
+    /**
+     * removes the element with the smallest key
+     * @return the element with the smallest key
+     */
     public Entry<K, V> removeMin() {
         if(heap.isEmpty()) {
             return null;
@@ -146,10 +156,17 @@ public class ArrayHeap<K, V> extends AbstractPriorityQueue<K, V> {
         return answer;
     }
 
+    /**
+     * finds the job with the oldest entry time which has not been run yet
+     * @return
+     */
     public Entry findOldest() {
         return heap.findMax();
     }
 
+    /**
+     * finds the oldest job and changes its priority to the highest priority
+     */
     public void starvation() {
         Job oldest = (Job) findOldest();
         if(oldest != null) {
