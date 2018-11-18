@@ -1,54 +1,54 @@
 
 ArrayHeap Simulation
 
-Current system time (cycles): 3540
+Current system time (cycles): 3151
 Total number of jobs executed: 100 jobs
-Average process waiting time: 1712 cycles
-Total number of priority changes: 118
-Actual system time needed to execute all jobs: 479 ms
+Average process waiting time: 1532 cycles
+Total number of priority changes: 105
+Actual system time needed to execute all jobs: 112 ms
 
 
 Sorted Priority Queue Simulation:
 
-Current system time (cycles): 3721
+Current system time (cycles): 3794
 Total number of jobs executed: 100 jobs
-Average process waiting time: 1894 cycles
-Total number of priority changes: 124
-Actual system time needed to execute all jobs: 527 ms
+Average process waiting time: 1932 cycles
+Total number of priority changes: 126
+Actual system time needed to execute all jobs: 231 ms
 
 
 ArrayHeap Simulation
 
-Current system time (cycles): 39206
+Current system time (cycles): 40055
 Total number of jobs executed: 1000 jobs
-Average process waiting time: 21040 cycles
-Total number of priority changes: 1306
-Actual system time needed to execute all jobs: 2201 ms
+Average process waiting time: 21567 cycles
+Total number of priority changes: 1335
+Actual system time needed to execute all jobs: 1710 ms
 
 
 Sorted Priority Queue Simulation:
 
-Current system time (cycles): 34590
+Current system time (cycles): 34381
 Total number of jobs executed: 1000 jobs
-Average process waiting time: 17578 cycles
-Total number of priority changes: 1153
-Actual system time needed to execute all jobs: 1261 ms
+Average process waiting time: 17409 cycles
+Total number of priority changes: 1146
+Actual system time needed to execute all jobs: 1459 ms
 
 
 ArrayHeap Simulation
 
-Current system time (cycles): 392655
+Current system time (cycles): 393634
 Total number of jobs executed: 10000 jobs
-Average process waiting time: 209281 cycles
-Total number of priority changes: 13088
-Actual system time needed to execute all jobs: 26027 ms
+Average process waiting time: 209456 cycles
+Total number of priority changes: 13121
+Actual system time needed to execute all jobs: 24611 ms
 
 
 Sorted Priority Queue Simulation:
 
-Current system time (cycles): 351642
+Current system time (cycles): 358859
 Total number of jobs executed: 10000 jobs
-Average process waiting time: 179611 cycles
-Total number of priority changes: 11721
-Actual system time needed to execute all jobs: 21501 ms
+Average process waiting time: 180622 cycles
+Total number of priority changes: 11961
+Actual system time needed to execute all jobs: 25709 ms
 
