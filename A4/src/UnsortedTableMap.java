@@ -3,14 +3,14 @@ import java.util.NoSuchElementException;
 
 public class UnsortedTableMap<K, V> extends AbstractMap<K, V> {
 
-    private ArrayList<MapEntry<K, V>> table = new ArrayList<>();
+    private ArrayList<MapEntry> table = new ArrayList<>();
 
     public UnsortedTableMap() {}
 
-    public int findIndex(K key) {
+    public int findIndex(int key) {
         int n = table.size();
         for(int i = 0; i < n; i++) {
-            if(table.get(i).getKey().equals(key)) {
+            if(table.get(i).getKey() == key) {
                 return i;
             }
         }
@@ -22,32 +22,32 @@ public class UnsortedTableMap<K, V> extends AbstractMap<K, V> {
         return table.size();
     }
 
-    public V get(K key) {
+    public int get(int key) {
         int j = findIndex(key);
         if(j == -1) {
-            return null;
+            return -1;
         }
         return table.get(j).getValue();
     }
 
-    public V put(K key, V value) {
-        int j = findIndex(key);
+    public int put(MapEntry m) {
+        int j = findIndex(m.getKey());
         if(j == -1) {
-            table.add(j, new MapEntry<>(key, value));
-            return null;
+            table.add(j, new MapEntry());
+            return -1;
         }
         else {
-            return table.get(j).setValue(value);
+            return table.get(j).setValue(m.getValue());
         }
     }
 
-    public V remove(K key) {
+    public int remove(int key) {
         int j = findIndex(key);
         int n = size();
         if(j == -1) {
-            return null;
+            return -1;
         }
-        V answer = table.get(j).getValue();
+        int answer = table.get(j).getValue();
         if(j != n - 1) {
             table.set(j, table.get(n - 1));
         }
@@ -55,12 +55,12 @@ public class UnsortedTableMap<K, V> extends AbstractMap<K, V> {
         return answer;
     }
 
-    private class EntryIterator implements Iterator<Entry<K, V>> {
+    private class EntryIterator implements Iterator<MapEntry> {
         private int j = 0;
         public boolean hasNext() {
             return j < table.size();
         }
-        public Entry<K, V> next() {
+        public MapEntry next() {
             if(j == table.size()) {
                 throw new NoSuchElementException();
             }
@@ -71,14 +71,14 @@ public class UnsortedTableMap<K, V> extends AbstractMap<K, V> {
         }
     }
 
-    private class EntryIterable implements Iterable<Entry<K, V>> {
-        public Iterator<Entry<K, V>> iterator() {
+    private class EntryIterable implements Iterable<MapEntry> {
+        public Iterator<MapEntry> iterator() {
             return new EntryIterator();
         }
     }
 
     @Override
-    public Iterable<Entry<K, V>> entrySet() {
+    public Iterable<MapEntry> entrySet() {
         return new EntryIterable();
     }
 

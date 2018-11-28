@@ -1,7 +1,7 @@
 public class LinearProbeHashMap<K, V> extends AbstractHashMap<K, V> {
 
-    private MapEntry<K, V>[] table;
-    private MapEntry<K, V> DEFUNCT = new MapEntry<>(null, null);
+    private MapEntry[] table;
+    private MapEntry DEFUNCT = new MapEntry();
 
     public LinearProbeHashMap() {
         super();
@@ -17,14 +17,14 @@ public class LinearProbeHashMap<K, V> extends AbstractHashMap<K, V> {
 
     @Override
     protected void createTable() {
-        table = (MapEntry<K, V>[]) new MapEntry[capacity];
+        table = new MapEntry[capacity];
     }
 
     private boolean isAvailable(int j) {
         return (table[j] == null || table[j] == DEFUNCT);
     }
 
-    private int findSlot(int h, K k) {
+    private int findSlot(int h, int k) {
         int avail = -1;
         int j = h;
         do {
@@ -36,7 +36,7 @@ public class LinearProbeHashMap<K, V> extends AbstractHashMap<K, V> {
                     break;
                 }
             }
-            else if(table[j].getKey().equals(k)) {
+            else if(table[j].getKey() == k) {
                 return j;
             }
             j = (j + 1) % capacity;
@@ -44,33 +44,31 @@ public class LinearProbeHashMap<K, V> extends AbstractHashMap<K, V> {
         return -(avail + 1);
     }
 
-    @Override
-    protected V bucketGet(int h, K k) {
+    protected int bucketGet(int h, int k) {
         int j = findSlot(h, k);
         if(j < 0) {
-            return null;
+            return -1;
         }
         return table[j].getValue();
     }
 
-    @Override
-    protected V bucketPut(int h, K k, V v) {
-        int j = findSlot(h, k);
+    protected int bucketPut(int h, MapEntry m) {
+        int key = m.hashCode();
+        int j = findSlot(h, key);
         if(j > 0) {
-            return table[j].setValue(v);
+            return table[j].getValue();
         }
-        table[-(j + 1)] = new MapEntry<>(k, v);
+        table[-(j + 1)] = new MapEntry();
         n++;
-        return null;
+        return -1;
     }
 
-    @Override
-    protected V bucketRemove(int h, K k) {
+    protected int bucketRemove(int h, int k) {
         int j = findSlot(h, k);
         if(j < 0) {
-            return null;
+            return -1;
         }
-        V answer = table[j].getValue();
+        int answer = table[j].getValue();
         table[j] = DEFUNCT;
         n--;
         return answer;
@@ -78,7 +76,7 @@ public class LinearProbeHashMap<K, V> extends AbstractHashMap<K, V> {
 
     //TODO implement entrySet()
     @Override
-    public Iterable<Entry<K, V>> entrySet() {
+    public Iterable<MapEntry> entrySet() {
         return null;
     }
 

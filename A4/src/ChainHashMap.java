@@ -20,43 +20,40 @@ public class ChainHashMap<K, V> extends AbstractHashMap<K, V> {
         table = (UnsortedTableMap<K, V>[]) new UnsortedTableMap[capacity];
     }
 
-    @Override
-    protected V bucketGet(int h, K k) {
+    protected int bucketGet(int h, int k) {
         UnsortedTableMap<K, V> bucket = table[h];
         if(bucket == null) {
-            return null;
+            return -1;
         }
         return bucket.get(k);
     }
 
-    @Override
-    protected V bucketPut(int h, K k, V v) {
+    protected int bucketPut(int h, MapEntry m) {
         UnsortedTableMap<K, V> bucket = table[h];
         if(bucket == null) {
             bucket = new UnsortedTableMap<>();
             table[h] = new UnsortedTableMap<>();
         }
         int oldSize = bucket.size();
-        V answer = bucket.put(k, v);
+        int answer = bucket.put(m);
         n +=  (bucket.size() - oldSize);
         return answer;
     }
 
-    @Override
-    protected V bucketRemove(int h, K k) {
+    protected int bucketRemove(int h, int k) {
         UnsortedTableMap<K, V> bucket = table[h];
         if(bucket == null) {
-            return null;
+            return -1;
         }
         int oldSize = bucket.size();
-        V answer = bucket.remove(k);
+        int answer = bucket.remove(k);
         n -= (oldSize - bucket.size());
         return answer;
     }
 
     //TODO implement entrySet()
     @Override
-    public Iterable<Entry<K, V>> entrySet() {
+    public Iterable<MapEntry> entrySet() {
         return null;
     }
 

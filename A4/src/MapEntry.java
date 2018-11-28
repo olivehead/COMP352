@@ -21,4 +21,18 @@ public class MapEntry {
         return total;
     }
 
+    public int getKey() {
+        return key;
+    }
+
+    public int getValue() {
+        return value;
+    }
+
+    public int setValue(int value) {
+        int old = this.value;
+        this.value = value;
+        return old;
+    }
+
 }
