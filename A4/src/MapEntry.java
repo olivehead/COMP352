@@ -11,6 +11,11 @@ public class MapEntry {
         value = rand.nextInt();
     }
 
+    public MapEntry(int k, int v) {
+        key = k;
+        value = v;
+    }
+
     public int hashCode() {
         String temp = Integer.toBinaryString(key);
         int total = 0;
@@ -18,7 +23,7 @@ public class MapEntry {
         for(int i = 0; i < temp.length(); i++) {
             total += temp.charAt(i) * z ^ i;
         }
-        return total;
+        return Math.abs(total);
     }
 
     public int getKey() {
@@ -35,4 +40,7 @@ public class MapEntry {
         return old;
     }
 
+    public void setKey(int k) {
+        key = k;
+    }
 }

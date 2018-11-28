@@ -52,13 +52,12 @@ public class LinearProbeHashMap<K, V> extends AbstractHashMap<K, V> {
         return table[j].getValue();
     }
 
-    protected int bucketPut(int h, MapEntry m) {
-        int key = m.hashCode();
-        int j = findSlot(h, key);
+    protected int bucketPut(int h, int k, int v) {
+        int j = findSlot(h, k);
         if(j > 0) {
-            return table[j].getValue();
+            return table[j].setValue(v);
         }
-        table[-(j + 1)] = new MapEntry();
+        table[-(j + 1)] = new MapEntry(k, v);
         n++;
         return -1;
     }

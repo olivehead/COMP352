@@ -3,7 +3,7 @@ import java.util.NoSuchElementException;
 
 public class UnsortedTableMap<K, V> extends AbstractMap<K, V> {
 
-    private ArrayList<MapEntry> table = new ArrayList<>();
+    private ArrayList<MapEntry> table = new ArrayList<>(100000);
 
     public UnsortedTableMap() {}
 
@@ -30,14 +30,14 @@ public class UnsortedTableMap<K, V> extends AbstractMap<K, V> {
         return table.get(j).getValue();
     }
 
-    public int put(MapEntry m) {
-        int j = findIndex(m.getKey());
+    public int put(int k, int v) {
+        int j = findIndex(k);
         if(j == -1) {
-            table.add(j, new MapEntry());
+            table.add(k, new MapEntry(k, v));
             return -1;
         }
         else {
-            return table.get(j).setValue(m.getValue());
+            return table.get(j).setValue(v);
         }
     }
 

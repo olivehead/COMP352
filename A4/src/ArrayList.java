@@ -2,7 +2,7 @@
 public class ArrayList<E> {
 
     public static final int CAPACITY = 16;
-    private E[] data;
+    private MapEntry[] data;
     private int size;
 
     public ArrayList() {
@@ -10,7 +10,11 @@ public class ArrayList<E> {
     }
 
     public ArrayList(int capacity) {
-        data = (E[]) new Object[capacity];
+        data = new MapEntry[capacity];
+        for(int i = 0; i < data.length; i++) {
+            data[i] = new MapEntry(-1, -1);
+        }
+        size = capacity;
     }
 
     public int size() {
@@ -21,19 +25,19 @@ public class ArrayList<E> {
         return size == 0;
     }
 
-    public E get(int i) throws IndexOutOfBoundsException {
+    public MapEntry get(int i) throws IndexOutOfBoundsException {
         checkIndex(i, size);
         return data[i];
     }
 
-    public E set(int i, E e) throws IndexOutOfBoundsException {
+    public MapEntry set(int i, MapEntry e) throws IndexOutOfBoundsException {
         checkIndex(i, size);
-        E temp = data[i];
+        MapEntry temp = data[i];
         data[i] = e;
         return temp;
     }
 
-    public void add(int i, E e) throws IndexOutOfBoundsException, IllegalStateException {
+    public void add(int i, MapEntry e) throws IndexOutOfBoundsException, IllegalStateException {
         checkIndex(i, size);
         if(size == data.length) {
             resize(2 * data.length);
@@ -45,9 +49,9 @@ public class ArrayList<E> {
         size++;
     }
 
-    public E remove(int i) throws IndexOutOfBoundsException {
+    public MapEntry remove(int i) throws IndexOutOfBoundsException {
         checkIndex(i, size);
-        E temp = data[i];
+        MapEntry temp = data[i];
         for(int j = i; i < size - 1; i++) {
             data[j] = data[j + 1];
         }
@@ -63,7 +67,7 @@ public class ArrayList<E> {
     }
 
     protected void resize(int capacity) {
-        E[] temp = (E[]) new Object[capacity];
+        MapEntry[] temp = new MapEntry[capacity];
         for(int j = 0; j < size; j++) {
             temp[j] = data[j];
         }

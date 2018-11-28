@@ -28,11 +28,15 @@ public abstract class AbstractHashMap<K,V>  extends AbstractMap<K,V> {
         return bucketGet(hashValue(key), key);
     }
 
-    public int put(MapEntry m) {
-        int answer = bucketPut(hashValue(m.getKey()), m);
+    public int put(int key, int value) {
+        long startTime = System.currentTimeMillis();
+        int answer = bucketPut(hashValue(key), key, value);
         //TODO implement once resize is fixed
 //        if(n < capacity/2)
 //            resize(2*capacity-1);
+        long endTime = System.currentTimeMillis();
+        System.out.print("Time to add entry: ");
+        System.out.println(endTime - startTime);
         return answer;
     }
 
@@ -63,6 +67,6 @@ public abstract class AbstractHashMap<K,V>  extends AbstractMap<K,V> {
 
     protected abstract void createTable();
     protected abstract int bucketGet(int h, int k);
-    protected abstract int bucketPut(int h, MapEntry m);
+    protected abstract int bucketPut(int h, int k, int v);
     protected abstract int bucketRemove(int h, int k);
 }
