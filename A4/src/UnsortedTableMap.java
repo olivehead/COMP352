@@ -22,6 +22,10 @@ public class UnsortedTableMap<K, V> extends AbstractMap<K, V> {
         return table.size();
     }
 
+    public boolean isEmpty() {
+        return table.isEmpty();
+    }
+
     public int get(int key) {
         int j = findIndex(key);
         if(j == -1) {

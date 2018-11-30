@@ -32,11 +32,13 @@ public class ChainHashMap<K, V> extends AbstractHashMap<K, V> {
     protected int bucketPut(int h, int k, int v) {
         UnsortedTableMap<K, V> bucket = table[h];
         if(bucket == null) {
-            bucket = new UnsortedTableMap<>();
-            table[h] = new UnsortedTableMap<>();
+            bucket = table[h] = new UnsortedTableMap<>();
         }
         int oldSize = bucket.size();
         int answer = bucket.put(k, v);
+        if(answer != -1) {
+            collisions++;
+        }
         n +=  (bucket.size() - oldSize);
         return answer;
     }

@@ -43,4 +43,9 @@ public class MapEntry {
     public void setKey(int k) {
         key = k;
     }
+
+    public String toString() {
+        return "Key: " + key + " value: " + value;
+    }
+
 }

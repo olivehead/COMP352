@@ -6,6 +6,7 @@ public abstract class AbstractHashMap<K,V>  extends AbstractMap<K,V> {
     protected int capacity;
     private int prime;
     private long scale, shift;
+    protected int collisions = 0;
 
     public AbstractHashMap() {
         this(10);
@@ -30,13 +31,17 @@ public abstract class AbstractHashMap<K,V>  extends AbstractMap<K,V> {
 
     public int put(int key, int value) {
         long startTime = System.currentTimeMillis();
+        System.out.println("Hashed key: " + hashValue(key));
         int answer = bucketPut(hashValue(key), key, value);
         //TODO implement once resize is fixed
 //        if(n < capacity/2)
 //            resize(2*capacity-1);
         long endTime = System.currentTimeMillis();
-        System.out.print("Time to add entry: ");
-        System.out.println(endTime - startTime);
+//        System.out.print("Time to add entry: ");
+//        System.out.println(endTime - startTime);
+//        System.out.println("Size of the table: " + capacity);
+//        System.out.println("Number of elements: " + size());
+//        System.out.println("Number of collisions: " + collisions);
         return answer;
     }
 

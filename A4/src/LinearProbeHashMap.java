@@ -1,7 +1,7 @@
 public class LinearProbeHashMap<K, V> extends AbstractHashMap<K, V> {
 
     private MapEntry[] table;
-    private MapEntry DEFUNCT = new MapEntry();
+    private MapEntry DEFUNCT = new MapEntry(-1, -1);
 
     public LinearProbeHashMap() {
         super();
@@ -9,6 +9,7 @@ public class LinearProbeHashMap<K, V> extends AbstractHashMap<K, V> {
 
     public LinearProbeHashMap(int cap) {
         super(cap);
+        createTable();
     }
 
     public LinearProbeHashMap(int cap, int p) {
@@ -29,16 +30,10 @@ public class LinearProbeHashMap<K, V> extends AbstractHashMap<K, V> {
         int j = h;
         do {
             if(isAvailable(j)) {
-                if(avail == -1) {
-                    avail = j;
-                }
-                if(table[j] == null) {
-                    break;
-                }
-            }
-            else if(table[j].getKey() == k) {
+                if(avail == -1) avail = j;
+                if(table[j] == null) break;
+            } else if(table[j].getKey() == k)
                 return j;
-            }
             j = (j + 1) % capacity;
         } while(j != h);
         return -(avail + 1);
@@ -54,7 +49,9 @@ public class LinearProbeHashMap<K, V> extends AbstractHashMap<K, V> {
 
     protected int bucketPut(int h, int k, int v) {
         int j = findSlot(h, k);
-        if(j > 0) {
+        if(j >= 0) {
+            collisions++;
+            n++;
             return table[j].setValue(v);
         }
         table[-(j + 1)] = new MapEntry(k, v);
@@ -77,6 +74,14 @@ public class LinearProbeHashMap<K, V> extends AbstractHashMap<K, V> {
     @Override
     public Iterable<MapEntry> entrySet() {
         return null;
+    }
+
+    public String toString() {
+        String s = "";
+        for(int i = 0; i < capacity; i++) {
+            s += i + ") " + table[i] + "\n";
+        }
+        return s;
     }
 
 }
