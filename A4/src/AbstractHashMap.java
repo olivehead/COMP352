@@ -2,6 +2,7 @@
 import java.util.Random;
 
 public abstract class AbstractHashMap<K,V>  extends AbstractMap<K,V> {
+
     protected int n=0;
     protected int capacity;
     private int prime;
@@ -25,14 +26,14 @@ public abstract class AbstractHashMap<K,V>  extends AbstractMap<K,V> {
         this.capacity = capacity;
     }
 
-    public int get(int key) {
+    public String get(int key) {
         return bucketGet(hashValue(key), key);
     }
 
-    public int put(int key, int value) {
+    public String put(int key, String value) {
         long startTime = System.currentTimeMillis();
         System.out.println("Hashed key: " + hashValue(key));
-        int answer = bucketPut(hashValue(key), key, value);
+        String answer = bucketPut(hashValue(key), key, value);
         //TODO implement once resize is fixed
 //        if(n < capacity/2)
 //            resize(2*capacity-1);
@@ -45,7 +46,7 @@ public abstract class AbstractHashMap<K,V>  extends AbstractMap<K,V> {
         return answer;
     }
 
-    public int remove(int key) {
+    public String remove(int key) {
         return bucketRemove(hashValue(key),key);
     }
 
@@ -71,7 +72,8 @@ public abstract class AbstractHashMap<K,V>  extends AbstractMap<K,V> {
 //    }
 
     protected abstract void createTable();
-    protected abstract int bucketGet(int h, int k);
-    protected abstract int bucketPut(int h, int k, int v);
-    protected abstract int bucketRemove(int h, int k);
+    protected abstract String bucketGet(int h, int k);
+    protected abstract String bucketPut(int h, int k, String v);
+    protected abstract String bucketRemove(int h, int k);
+
 }

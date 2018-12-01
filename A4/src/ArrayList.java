@@ -1,5 +1,5 @@
 
-public class ArrayList<E> {
+public class ArrayList {
 
     public static final int CAPACITY = 16;
     private MapEntry[] data;
@@ -12,7 +12,7 @@ public class ArrayList<E> {
     public ArrayList(int capacity) {
         data = new MapEntry[capacity];
         for(int i = 0; i < data.length; i++) {
-            data[i] = new MapEntry(-1, -1);
+            data[i] = new MapEntry(-1, null);
         }
         size = capacity;
     }

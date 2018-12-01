@@ -21,35 +21,35 @@ public class ChainHashMap<K, V> extends AbstractHashMap<K, V> {
         table = (UnsortedTableMap<K, V>[]) new UnsortedTableMap[capacity];
     }
 
-    protected int bucketGet(int h, int k) {
+    protected String bucketGet(int h, int k) {
         UnsortedTableMap<K, V> bucket = table[h];
         if(bucket == null) {
-            return -1;
+            return null;
         }
         return bucket.get(k);
     }
 
-    protected int bucketPut(int h, int k, int v) {
+    protected String bucketPut(int h, int k, String v) {
         UnsortedTableMap<K, V> bucket = table[h];
         if(bucket == null) {
             bucket = table[h] = new UnsortedTableMap<>();
         }
         int oldSize = bucket.size();
-        int answer = bucket.put(k, v);
-        if(answer != -1) {
+        String answer = bucket.put(k, v);
+        if(answer != null) {
             collisions++;
         }
         n +=  (bucket.size() - oldSize);
         return answer;
     }
 
-    protected int bucketRemove(int h, int k) {
+    protected String bucketRemove(int h, int k) {
         UnsortedTableMap<K, V> bucket = table[h];
         if(bucket == null) {
-            return -1;
+            return null;
         }
         int oldSize = bucket.size();
-        int answer = bucket.remove(k);
+        String answer = bucket.remove(k);
         n -= (oldSize - bucket.size());
         return answer;
     }

@@ -2,16 +2,18 @@ import java.util.Random;
 
 public class MapEntry {
 
-    Integer key;
-    int value;
+    private Integer key;
+    private String value;
+    private static int count = 0;
 
     public MapEntry() {
         Random rand = new Random();
         key = rand.nextInt();
-        value = rand.nextInt();
+        value = "Entry " + (count + 1);
+        count++;
     }
 
-    public MapEntry(int k, int v) {
+    public MapEntry(int k, String v) {
         key = k;
         value = v;
     }
@@ -30,12 +32,12 @@ public class MapEntry {
         return key;
     }
 
-    public int getValue() {
+    public String getValue() {
         return value;
     }
 
-    public int setValue(int value) {
-        int old = this.value;
+    public String setValue(String value) {
+        String old = this.value;
         this.value = value;
         return old;
     }
