@@ -1,7 +1,7 @@
 
 public class ChainHashMap<K, V> extends AbstractHashMap<K, V> {
 
-    private UnsortedTableMap<K, V>[] table;
+    private LinkedList[] table;
 
     public ChainHashMap() {
         super();
@@ -18,11 +18,11 @@ public class ChainHashMap<K, V> extends AbstractHashMap<K, V> {
 
     @Override
     protected void createTable() {
-        table = (UnsortedTableMap<K, V>[]) new UnsortedTableMap[capacity];
+        table = new LinkedList[capacity];
     }
 
     protected String bucketGet(int h, int k) {
-        UnsortedTableMap<K, V> bucket = table[h];
+        LinkedList bucket = table[h];
         if(bucket == null) {
             return null;
         }
@@ -30,21 +30,21 @@ public class ChainHashMap<K, V> extends AbstractHashMap<K, V> {
     }
 
     protected String bucketPut(int h, int k, String v) {
-        UnsortedTableMap<K, V> bucket = table[h];
+        LinkedList bucket = table[h];
         if(bucket == null) {
-            bucket = table[h] = new UnsortedTableMap<>();
+            bucket = table[h] = new LinkedList();
         }
         int oldSize = bucket.size();
-        String answer = bucket.put(k, v);
-        if(answer != null) {
+        if(!bucket.isEmpty()) {
             collisions++;
         }
+        bucket.add(k, v);
         n +=  (bucket.size() - oldSize);
-        return answer;
+        return null;
     }
 
     protected String bucketRemove(int h, int k) {
-        UnsortedTableMap<K, V> bucket = table[h];
+        LinkedList bucket = table[h];
         if(bucket == null) {
             return null;
         }
@@ -52,6 +52,14 @@ public class ChainHashMap<K, V> extends AbstractHashMap<K, V> {
         String answer = bucket.remove(k);
         n -= (oldSize - bucket.size());
         return answer;
+    }
+
+    public String toString() {
+        String s = "";
+        for(int i = 0; i < table.length; i++) {
+            s += table[i] + "\n";
+        }
+        return s;
     }
 
     //TODO implement entrySet()

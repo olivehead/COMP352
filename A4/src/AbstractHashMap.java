@@ -38,11 +38,11 @@ public abstract class AbstractHashMap<K,V>  extends AbstractMap<K,V> {
 //        if(n < capacity/2)
 //            resize(2*capacity-1);
         long endTime = System.currentTimeMillis();
-//        System.out.print("Time to add entry: ");
-//        System.out.println(endTime - startTime);
-//        System.out.println("Size of the table: " + capacity);
-//        System.out.println("Number of elements: " + size());
-//        System.out.println("Number of collisions: " + collisions);
+        System.out.print("Time to add entry: ");
+        System.out.println(endTime - startTime);
+        System.out.println("Size of the table: " + capacity);
+        System.out.println("Number of elements: " + size());
+        System.out.println("Number of collisions: " + collisions);
         return answer;
     }
 
