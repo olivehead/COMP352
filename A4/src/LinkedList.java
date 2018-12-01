@@ -93,8 +93,10 @@ public class LinkedList {
     public String get(int key) {
         Node position = head.next;
         while(position != null) {
-            if(position.getElement().getKey() == key) {
-                return position.getElement().getValue();
+            if(position.getElement() != null) {
+                if(position.getElement().getKey() == key) {
+                    return position.getElement().getValue();
+                }
             }
             position = position.next;
         }

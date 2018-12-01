@@ -32,8 +32,9 @@ public class LinearProbeHashMap<K, V> extends AbstractHashMap<K, V> {
             if(isAvailable(j)) {
                 if(avail == -1) avail = j;
                 if(table[j] == null) break;
-            } else if(table[j].getKey() == k)
+            } else if(table[j].getKey() == k) {
                 return j;
+            }
             j = (j + 1) % capacity;
         } while(j != h);
         return -(avail + 1);
@@ -50,7 +51,6 @@ public class LinearProbeHashMap<K, V> extends AbstractHashMap<K, V> {
     protected String bucketPut(int h, int k, String v) {
         int j = findSlot(h, k);
         if(j >= 0) {
-            collisions++;
             n++;
             return table[j].setValue(v);
         }

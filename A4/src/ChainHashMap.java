@@ -50,6 +50,9 @@ public class ChainHashMap<K, V> extends AbstractHashMap<K, V> {
         }
         int oldSize = bucket.size();
         String answer = bucket.remove(k);
+        if(bucket.isEmpty()) {
+            table[h] = null;
+        }
         n -= (oldSize - bucket.size());
         return answer;
     }
@@ -57,7 +60,7 @@ public class ChainHashMap<K, V> extends AbstractHashMap<K, V> {
     public String toString() {
         String s = "";
         for(int i = 0; i < table.length; i++) {
-            s += table[i] + "\n";
+            s += i + ") " + table[i] + "\n";
         }
         return s;
     }

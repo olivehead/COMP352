@@ -43,6 +43,7 @@ public abstract class AbstractHashMap<K,V>  extends AbstractMap<K,V> {
         System.out.println("Size of the table: " + capacity);
         System.out.println("Number of elements: " + size());
         System.out.println("Number of collisions: " + collisions);
+        System.out.println();
         return answer;
     }
 
