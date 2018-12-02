@@ -28,24 +28,24 @@ public abstract class AbstractHashMap<K,V>  extends AbstractMap<K,V> {
     }
 
     public String get(int key) {
-        long startTime = System.currentTimeMillis();
+        long startTime = System.nanoTime();
         String s = bucketGet(hashValue(key), key);
-        long endTime = System.currentTimeMillis();
+        long endTime = System.nanoTime();
         System.out.print("Time to get entry: ");
-        System.out.println(endTime - startTime);
+        System.out.println(endTime - startTime + " ns");
         return s;
     }
 
     public String put(int key, String value) throws MapFullException {
-        long startTime = System.currentTimeMillis();
+        long startTime = System.nanoTime();
         System.out.println("Hashed key: " + hashValue(key));
         String answer = bucketPut(hashValue(key), key, value);
         //TODO implement once resize is fixed
 //        if(n < capacity/2)
 //            resize(2*capacity-1);
-        long endTime = System.currentTimeMillis();
+        long endTime = System.nanoTime();
         System.out.print("Time to add entry: ");
-        System.out.println(endTime - startTime);
+        System.out.println((endTime - startTime) + " ns");
         System.out.println("Size of the table: " + capacity);
         System.out.println("Number of elements: " + size());
         System.out.println("Number of collisions: " + collisions);
@@ -54,11 +54,11 @@ public abstract class AbstractHashMap<K,V>  extends AbstractMap<K,V> {
     }
 
     public String remove(int key) {
-        long startTime = System.currentTimeMillis();
+        long startTime = System.nanoTime();
         String s = bucketRemove(hashValue(key),key);
-        long endTime = System.currentTimeMillis();
+        long endTime = System.nanoTime();
         System.out.print("Time to remove entry: ");
-        System.out.println(endTime - startTime);
+        System.out.println(endTime - startTime + " ns");
         return s;
     }
 
