@@ -1,4 +1,5 @@
 
+import java.util.ArrayList;
 import java.util.Random;
 
 public abstract class AbstractHashMap<K,V>  extends AbstractMap<K,V> {
@@ -27,10 +28,15 @@ public abstract class AbstractHashMap<K,V>  extends AbstractMap<K,V> {
     }
 
     public String get(int key) {
-        return bucketGet(hashValue(key), key);
+        long startTime = System.currentTimeMillis();
+        String s = bucketGet(hashValue(key), key);
+        long endTime = System.currentTimeMillis();
+        System.out.print("Time to get entry: ");
+        System.out.println(endTime - startTime);
+        return s;
     }
 
-    public String put(int key, String value) {
+    public String put(int key, String value) throws MapFullException {
         long startTime = System.currentTimeMillis();
         System.out.println("Hashed key: " + hashValue(key));
         String answer = bucketPut(hashValue(key), key, value);
@@ -48,7 +54,12 @@ public abstract class AbstractHashMap<K,V>  extends AbstractMap<K,V> {
     }
 
     public String remove(int key) {
-        return bucketRemove(hashValue(key),key);
+        long startTime = System.currentTimeMillis();
+        String s = bucketRemove(hashValue(key),key);
+        long endTime = System.currentTimeMillis();
+        System.out.print("Time to remove entry: ");
+        System.out.println(endTime - startTime);
+        return s;
     }
 
     @Override
@@ -61,20 +72,20 @@ public abstract class AbstractHashMap<K,V>  extends AbstractMap<K,V> {
     }
 
     //TODO implement resizing once entrySet() is fixed
-//    private void resize(int newCap) {
-//        ArrayList<Entry<K,V>> buffer = new ArrayList<>(n);
-//        for(MapEntry e: entrySet())
-//            buffer.add(e);
-//        capacity = newCap;
-//        createTable();
-//        n=0;
-//        for(Entry<K,V> e: buffer)
-//            put(e.getKey(),e.getValue());
-//    }
+    private void resize(int newCap) throws MapFullException {
+        ArrayList<MapEntry> buffer = new ArrayList<>();
+        for(MapEntry e: entrySet())
+            buffer.add(0, e);
+        capacity = newCap;
+        createTable();
+        n=0;
+        for(MapEntry e: buffer)
+            put(e.getKey(),e.getValue());
+    }
 
     protected abstract void createTable();
     protected abstract String bucketGet(int h, int k);
-    protected abstract String bucketPut(int h, int k, String v);
+    protected abstract String bucketPut(int h, int k, String v) throws MapFullException;
     protected abstract String bucketRemove(int h, int k);
 
 }

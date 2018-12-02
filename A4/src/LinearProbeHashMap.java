@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class LinearProbeHashMap<K, V> extends AbstractHashMap<K, V> {
 
     private MapEntry[] table;
@@ -36,6 +38,7 @@ public class LinearProbeHashMap<K, V> extends AbstractHashMap<K, V> {
                 return j;
             }
             j = (j + 1) % capacity;
+            collisions++;
         } while(j != h);
         return -(avail + 1);
     }
@@ -48,7 +51,10 @@ public class LinearProbeHashMap<K, V> extends AbstractHashMap<K, V> {
         return table[j].getValue();
     }
 
-    protected String bucketPut(int h, int k, String v) {
+    protected String bucketPut(int h, int k, String v) throws MapFullException {
+        if(size() == capacity) {
+            throw new MapFullException("Hash Map is full");
+        }
         int j = findSlot(h, k);
         if(j >= 0) {
             n++;
@@ -73,7 +79,13 @@ public class LinearProbeHashMap<K, V> extends AbstractHashMap<K, V> {
     //TODO implement entrySet()
     @Override
     public Iterable<MapEntry> entrySet() {
-        return null;
+        ArrayList<MapEntry> buffer = new ArrayList<>();
+        for(int h = 0; h < capacity; h++) {
+            if(!isAvailable(h)) {
+                buffer.add(0, table[h]);
+            }
+        }
+        return buffer;
     }
 
     public String toString() {
