@@ -21,16 +21,6 @@ public class MapEntry {
         hashedKey = hashCode();
     }
 
-//    public int hashCode() {
-//        String temp = Integer.toBinaryString(key);
-//        int total = 0;
-//        int z = 33;
-//        for(int i = 0; i < temp.length(); i++) {
-//            total += temp.charAt(i) * z ^ i;
-//        }
-//        return Math.abs(total);
-//    }
-
     public int hashCode() {
         int h = ((key << 5) | (key >>> 27));
         return Math.abs(h);
@@ -54,12 +44,8 @@ public class MapEntry {
         return hashedKey;
     }
 
-    public void setKey(int k) {
-        key = k;
-    }
-
     public String toString() {
-        return "Key: " + key + " Hashed Key: " + hashedKey + " value: " + value;
+        return "Key: " + key + " value: " + value;
     }
 
 }

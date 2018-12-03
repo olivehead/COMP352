@@ -1,19 +1,11 @@
 
-public class ChainHashMap<K, V> extends AbstractHashMap<K, V> {
+public class ChainHashMap extends AbstractHashMap {
 
     private LinkedList[] table;
-
-    public ChainHashMap() {
-        super();
-    }
 
     public ChainHashMap(int cap) {
         super(cap);
         createTable();
-    }
-
-    public ChainHashMap(int cap, int p) {
-        super(cap, p);
     }
 
     @Override
@@ -63,12 +55,6 @@ public class ChainHashMap<K, V> extends AbstractHashMap<K, V> {
             s += i + ") " + table[i] + "\n";
         }
         return s;
-    }
-
-    //TODO implement entrySet()
-    @Override
-    public Iterable<MapEntry> entrySet() {
-        return null;
     }
 
 }

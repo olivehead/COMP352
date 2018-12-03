@@ -1,20 +1,11 @@
-import java.util.ArrayList;
 
-public class QuadraticProbeHashMap<K, V> extends AbstractHashMap<K, V> {
+public class QuadraticProbeHashMap extends AbstractHashMap {
     private MapEntry[] table;
     private MapEntry DEFUNCT = new MapEntry(-1, null);
-
-    public QuadraticProbeHashMap() {
-        super();
-    }
 
     public QuadraticProbeHashMap(int cap) {
         super(cap);
         createTable();
-    }
-
-    public QuadraticProbeHashMap(int cap, int p) {
-        super(cap, p);
     }
 
     @Override
@@ -93,18 +84,6 @@ public class QuadraticProbeHashMap<K, V> extends AbstractHashMap<K, V> {
         }
         //FIXME This never gets printed even though resize is called twice
         System.out.println("\nRESIZING from " + prevCapacity + "to " + capacity);
-    }
-
-    //TODO implement entrySet()
-    @Override
-    public Iterable<MapEntry> entrySet() {
-        ArrayList<MapEntry> buffer = new ArrayList<>();
-        for(int h = 0; h < capacity; h++) {
-            if(!isAvailable(h)) {
-                buffer.add(0, table[h]);
-            }
-        }
-        return buffer;
     }
 
     public String toString() {

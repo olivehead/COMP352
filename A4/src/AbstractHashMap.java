@@ -1,27 +1,9 @@
 
-import java.util.ArrayList;
-import java.util.Random;
-
-public abstract class AbstractHashMap<K,V>  extends AbstractMap<K,V> {
+public abstract class AbstractHashMap {
 
     protected int n=0;
     protected int capacity;
-    private int prime;
-    private long scale, shift;
     protected int collisions = 0;
-
-    public AbstractHashMap() {
-        this(10);
-    }
-
-    public AbstractHashMap(int capacity, int prime) {
-        this.capacity = capacity;
-        this.prime = prime;
-        Random rand = new Random();
-        scale = rand.nextInt(prime-1)+1;
-        shift = rand.nextInt(prime);
-        createTable();
-    }
 
     public AbstractHashMap(int capacity) {
         this.capacity = capacity;
@@ -40,9 +22,6 @@ public abstract class AbstractHashMap<K,V>  extends AbstractMap<K,V> {
         long startTime = System.nanoTime();
         System.out.println("Hashed key: " + hashValue(key));
         String answer = bucketPut(hashValue(key), key, value);
-        //TODO implement once resize is fixed
-//        if(n < capacity/2)
-//            resize(2*capacity-1);
         long endTime = System.nanoTime();
         System.out.print("Time to add entry: ");
         System.out.println((endTime - startTime) + " ns");
@@ -62,25 +41,16 @@ public abstract class AbstractHashMap<K,V>  extends AbstractMap<K,V> {
         return s;
     }
 
-    @Override
     public int size() {
         return n;
     }
 
+//    public boolean isEmpty() {
+//        return size() == 0;
+//    }
+
     private int hashValue(int key) {
         return key % capacity;
-    }
-
-    //TODO implement resizing once entrySet() is fixed
-    private void resize(int newCap) throws MapFullException {
-        ArrayList<MapEntry> buffer = new ArrayList<>();
-        for(MapEntry e: entrySet())
-            buffer.add(0, e);
-        capacity = newCap;
-        createTable();
-        n=0;
-        for(MapEntry e: buffer)
-            put(e.getKey(),e.getValue());
     }
 
     protected abstract void createTable();
