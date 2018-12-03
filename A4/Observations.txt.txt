@@ -1,0 +1,17 @@
+Step 5
+
+1) For the separate chaining, the time it takes to put an element in the table seems
+to stay the same, since the separate chaining is implemented using a linked list, and
+adding to the front of a linked list requires O(1) time. For the linear probing, the
+time to put in an element goes up because if there is a collision, it takes O(n) to
+put the value in the next empty spot. As more values are inserted in, it takes more
+time to an empty spot, since there are less available spaces. For quadratic probing,
+the time seems to stay the same, since the values end up less clustered together, so
+finding an empty spot after a collision takes less time.
+
+2) For all the table, when a collision occurs, it takes more time for the value to be put
+in the table, since the function has to deal with this by adding it to the list, or finding
+the next empty spot in the array.
+
+3) Using 101 as the capacity creates less collisions, since 101 is a prime number,
+and modding a value with a prime number creates less repeats.

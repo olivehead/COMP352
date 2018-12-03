@@ -1,32 +1,32 @@
 
 SEPARATE CHAINING HASH MAP
 
-Time to add entry: 613057 ns
+Time to add entry: 660823 ns
 Size of the table: 100
 Number of elements: 1
 Number of collisions: 0
 
-Time to add entry: 8685 ns
+Time to add entry: 9079 ns
 Size of the table: 100
 Number of elements: 2
 Number of collisions: 0
 
-Time to add entry: 2368 ns
+Time to add entry: 2763 ns
 Size of the table: 100
 Number of elements: 3
 Number of collisions: 0
 
-Time to add entry: 2368 ns
+Time to add entry: 1974 ns
 Size of the table: 100
 Number of elements: 4
 Number of collisions: 0
 
-Time to add entry: 1974 ns
+Time to add entry: 1973 ns
 Size of the table: 100
 Number of elements: 5
 Number of collisions: 0
 
-Time to add entry: 2369 ns
+Time to add entry: 1974 ns
 Size of the table: 100
 Number of elements: 6
 Number of collisions: 0
@@ -36,50 +36,50 @@ Size of the table: 100
 Number of elements: 7
 Number of collisions: 0
 
-Time to add entry: 3553 ns
+Time to add entry: 1579 ns
 Size of the table: 100
 Number of elements: 8
-Number of collisions: 1
-
-Time to add entry: 2368 ns
-Size of the table: 100
-Number of elements: 9
-Number of collisions: 1
+Number of collisions: 0
 
 Time to add entry: 1973 ns
 Size of the table: 100
+Number of elements: 9
+Number of collisions: 0
+
+Time to add entry: 1974 ns
+Size of the table: 100
 Number of elements: 10
-Number of collisions: 1
+Number of collisions: 0
 
 Time to add entry: 1974 ns
 Size of the table: 100
 Number of elements: 11
-Number of collisions: 1
+Number of collisions: 0
 
-Time to add entry: 1580 ns
+Time to add entry: 3947 ns
 Size of the table: 100
 Number of elements: 12
-Number of collisions: 2
+Number of collisions: 0
 
-Time to add entry: 4738 ns
+Time to add entry: 4342 ns
 Size of the table: 100
 Number of elements: 13
-Number of collisions: 2
+Number of collisions: 1
 
 Time to add entry: 2763 ns
 Size of the table: 100
 Number of elements: 14
-Number of collisions: 2
+Number of collisions: 1
 
-Time to add entry: 2368 ns
+Time to add entry: 1974 ns
 Size of the table: 100
 Number of elements: 15
-Number of collisions: 2
+Number of collisions: 1
 
-Time to add entry: 1579 ns
+Time to add entry: 1974 ns
 Size of the table: 100
 Number of elements: 16
-Number of collisions: 2
+Number of collisions: 1
 
 Time to add entry: 1974 ns
 Size of the table: 100
@@ -91,92 +91,92 @@ Size of the table: 100
 Number of elements: 18
 Number of collisions: 2
 
-Time to add entry: 1579 ns
+Time to add entry: 1974 ns
 Size of the table: 100
 Number of elements: 19
 Number of collisions: 2
 
-Time to add entry: 2368 ns
+Time to add entry: 2369 ns
 Size of the table: 100
 Number of elements: 20
 Number of collisions: 2
 
-Time to add entry: 1974 ns
+Time to add entry: 2369 ns
 Size of the table: 100
 Number of elements: 21
-Number of collisions: 3
+Number of collisions: 2
 
-Time to add entry: 2368 ns
+Time to add entry: 2369 ns
 Size of the table: 100
 Number of elements: 22
-Number of collisions: 3
-
-Time to add entry: 1973 ns
-Size of the table: 100
-Number of elements: 23
-Number of collisions: 4
+Number of collisions: 2
 
 Time to add entry: 2368 ns
 Size of the table: 100
+Number of elements: 23
+Number of collisions: 2
+
+Time to add entry: 4342 ns
+Size of the table: 100
 Number of elements: 24
-Number of collisions: 4
+Number of collisions: 2
 
 Time to add entry: 1974 ns
 Size of the table: 100
 Number of elements: 25
-Number of collisions: 4
+Number of collisions: 2
 
 Time to add entry: 1974 ns
 Size of the table: 100
 Number of elements: 26
-Number of collisions: 4
+Number of collisions: 2
 
-Time to add entry: 1579 ns
+Time to add entry: 1973 ns
 Size of the table: 100
 Number of elements: 27
-Number of collisions: 4
+Number of collisions: 2
 
 Time to add entry: 1579 ns
 Size of the table: 100
 Number of elements: 28
-Number of collisions: 5
+Number of collisions: 2
+
+Time to add entry: 1973 ns
+Size of the table: 100
+Number of elements: 29
+Number of collisions: 2
 
 Time to add entry: 1974 ns
 Size of the table: 100
-Number of elements: 29
-Number of collisions: 5
+Number of elements: 30
+Number of collisions: 2
 
 Time to add entry: 1579 ns
 Size of the table: 100
-Number of elements: 30
-Number of collisions: 5
-
-Time to add entry: 1974 ns
-Size of the table: 100
 Number of elements: 31
-Number of collisions: 5
+Number of collisions: 2
 
-Time to add entry: 1974 ns
+Time to add entry: 1579 ns
 Size of the table: 100
 Number of elements: 32
-Number of collisions: 5
+Number of collisions: 3
 
-Time to add entry: 1974 ns
+Time to add entry: 1579 ns
 Size of the table: 100
 Number of elements: 33
-Number of collisions: 5
+Number of collisions: 4
 
-Time to add entry: 1974 ns
+Time to add entry: 1973 ns
 Size of the table: 100
 Number of elements: 34
-Number of collisions: 5
+Number of collisions: 4
 
 Time to add entry: 1974 ns
 Size of the table: 100
 Number of elements: 35
-Number of collisions: 5
+Number of collisions: 4
 
-Time to add entry: 2368 ns
+Time to add entry: 1579 ns
 Size of the table: 100
 Number of elements: 36
 Number of collisions: 5
@@ -184,34 +184,34 @@ Number of collisions: 5
 Time to add entry: 1974 ns
 Size of the table: 100
 Number of elements: 37
-Number of collisions: 6
+Number of collisions: 5
 
 Time to add entry: 1974 ns
 Size of the table: 100
 Number of elements: 38
-Number of collisions: 7
+Number of collisions: 5
 
-Time to add entry: 1974 ns
+Time to add entry: 1973 ns
 Size of the table: 100
 Number of elements: 39
-Number of collisions: 7
+Number of collisions: 6
 
 Time to add entry: 1579 ns
 Size of the table: 100
 Number of elements: 40
-Number of collisions: 8
+Number of collisions: 7
 
-Time to add entry: 1974 ns
+Time to add entry: 1579 ns
 Size of the table: 100
 Number of elements: 41
 Number of collisions: 8
 
-Time to add entry: 1973 ns
+Time to add entry: 2368 ns
 Size of the table: 100
 Number of elements: 42
 Number of collisions: 8
 
-Time to add entry: 1579 ns
+Time to add entry: 2369 ns
 Size of the table: 100
 Number of elements: 43
 Number of collisions: 8
@@ -221,12 +221,12 @@ Size of the table: 100
 Number of elements: 44
 Number of collisions: 9
 
-Time to add entry: 1973 ns
+Time to add entry: 2369 ns
 Size of the table: 100
 Number of elements: 45
 Number of collisions: 9
 
-Time to add entry: 1579 ns
+Time to add entry: 1974 ns
 Size of the table: 100
 Number of elements: 46
 Number of collisions: 9
@@ -241,444 +241,444 @@ Size of the table: 100
 Number of elements: 48
 Number of collisions: 9
 
-Time to add entry: 3158 ns
+Time to add entry: 1974 ns
 Size of the table: 100
 Number of elements: 49
-Number of collisions: 9
+Number of collisions: 10
 
-Time to add entry: 3947 ns
+Time to add entry: 2763 ns
 Size of the table: 100
 Number of elements: 50
 Number of collisions: 10
 
-0) null
+0) Key: 1183022300 value: Entry 6 Key: 1891277300 value: Entry 32 
 1) null
-2) Key: 184195102 value: Entry 13 
+2) null
 3) null
-4) Key: 2037566704 value: Entry 49 
-5) null
-6) null
+4) null
+5) Key: 1864705505 value: Entry 20 
+6) Key: 974318406 value: Entry 5 Key: 1470323406 value: Entry 13 
 7) null
-8) null
-9) Key: 299090809 value: Entry 24 
+8) Key: 1680919508 value: Entry 31 
+9) null
 10) null
-11) Key: 1785928911 value: Entry 26 
+11) Key: 1137663511 value: Entry 4 
 12) null
-13) null
-14) Key: 1455736614 value: Entry 16 
-15) null
+13) Key: 627813 value: Entry 38 
+14) null
+15) Key: 286794915 value: Entry 9 
 16) null
 17) null
 18) null
-19) null
-20) null
-21) null
+19) Key: 1627433719 value: Entry 22 
+20) Key: 534111720 value: Entry 48 
+21) Key: 1746280321 value: Entry 7 
 22) null
 23) null
-24) Key: 131547224 value: Entry 17 
-25) Key: 309621025 value: Entry 9 
-26) Key: 1141030326 value: Entry 27 
+24) null
+25) null
+26) null
 27) null
-28) null
-29) null
-30) Key: 1985401330 value: Entry 30 
-31) Key: 379686031 value: Entry 18 
+28) Key: 524735528 value: Entry 21 Key: 915528728 value: Entry 33 Key: 1184797728 value: Entry 49 
+29) Key: 1067577829 value: Entry 23 
+30) null
+31) Key: 1059441031 value: Entry 14 
 32) null
-33) Key: 722546533 value: Entry 15 
-34) null
-35) Key: 1267733235 value: Entry 20 
-36) null
+33) null
+34) Key: 514486934 value: Entry 30 
+35) Key: 402696035 value: Entry 3 Key: 1492619835 value: Entry 36 
+36) Key: 1808625536 value: Entry 50 
 37) null
-38) null
-39) Key: 1851048339 value: Entry 47 
-40) Key: 1260253140 value: Entry 11 Key: 1047746640 value: Entry 23 Key: 1432019840 value: Entry 50 
+38) Key: 951637038 value: Entry 15 Key: 1946049438 value: Entry 39 
+39) Key: 1264372539 value: Entry 29 
+40) Key: 1792674440 value: Entry 11 
 41) null
-42) Key: 1297972342 value: Entry 22 
-43) null
-44) Key: 350120044 value: Entry 7 Key: 926578944 value: Entry 8 
-45) Key: 1501434445 value: Entry 5 Key: 22895345 value: Entry 12 Key: 2108819145 value: Entry 21 
-46) Key: 349361146 value: Entry 48 
-47) Key: 393595847 value: Entry 32 
-48) Key: 766282248 value: Entry 43 
+42) Key: 1515247242 value: Entry 2 
+43) Key: 1451028443 value: Entry 47 
+44) Key: 909223044 value: Entry 16 Key: 818885144 value: Entry 17 
+45) null
+46) null
+47) Key: 1602131947 value: Entry 34 Key: 164381847 value: Entry 44 
+48) Key: 1922484948 value: Entry 18 
 49) null
 50) null
 51) null
-52) Key: 1574461252 value: Entry 2 
-53) null
-54) Key: 498236154 value: Entry 1 Key: 956592654 value: Entry 28 
-55) Key: 775041855 value: Entry 33 Key: 162251255 value: Entry 40 
-56) Key: 879408456 value: Entry 10 
-57) Key: 393089457 value: Entry 31 
-58) Key: 1470540558 value: Entry 36 
-59) Key: 88484259 value: Entry 3 Key: 2093221359 value: Entry 38 
-60) null
+52) null
+53) Key: 1104120653 value: Entry 10 
+54) Key: 697453554 value: Entry 42 
+55) null
+56) null
+57) null
+58) null
+59) null
+60) Key: 1756336560 value: Entry 43 
 61) null
 62) null
 63) null
-64) Key: 86628264 value: Entry 41 
-65) Key: 1962958165 value: Entry 4 Key: 138096265 value: Entry 44 
+64) Key: 977375964 value: Entry 1 
+65) null
 66) null
-67) null
+67) Key: 231279567 value: Entry 27 
 68) null
 69) null
-70) null
-71) Key: 566336371 value: Entry 42 
-72) Key: 1469836272 value: Entry 14 
-73) Key: 697020673 value: Entry 35 
-74) null
+70) Key: 59701070 value: Entry 25 
+71) Key: 1873216171 value: Entry 12 
+72) null
+73) Key: 140929173 value: Entry 26 
+74) Key: 503411474 value: Entry 28 
 75) null
-76) Key: 64943276 value: Entry 19 
+76) null
 77) null
-78) Key: 882867678 value: Entry 29 Key: 271843678 value: Entry 37 
+78) Key: 1570960578 value: Entry 45 
 79) null
-80) null
-81) null
-82) Key: 2047268582 value: Entry 34 
+80) Key: 457487180 value: Entry 35 
+81) Key: 421345181 value: Entry 19 Key: 697756681 value: Entry 40 
+82) Key: 206933882 value: Entry 46 
 83) null
-84) Key: 1537154484 value: Entry 25 
+84) null
 85) null
-86) Key: 704808886 value: Entry 39 
+86) null
 87) null
-88) Key: 1104099688 value: Entry 46 
-89) null
+88) null
+89) Key: 1463608989 value: Entry 24 
 90) null
 91) null
-92) Key: 1934851892 value: Entry 45 
+92) null
 93) null
 94) null
 95) null
-96) Key: 628764896 value: Entry 6 
+96) Key: 947887496 value: Entry 37 Key: 1359915796 value: Entry 41 
 97) null
-98) null
+98) Key: 1096863098 value: Entry 8 
 99) null
 
 Entry 1
-Time to get entry: 13027 ns
+Time to get entry: 11448 ns
 Entry 2
-Time to get entry: 18949 ns
+Time to get entry: 20527 ns
 Entry 3
-Time to get entry: 2369 ns
+Time to get entry: 4342 ns
 Entry 4
-Time to get entry: 1974 ns
+Time to get entry: 2369 ns
 Entry 5
-Time to get entry: 1579 ns
+Time to get entry: 6710 ns
 Entry 6
-Time to get entry: 1579 ns
+Time to get entry: 4342 ns
 Entry 7
-Time to get entry: 1579 ns
+Time to get entry: 1974 ns
 Entry 8
 Time to get entry: 1579 ns
 Entry 9
-Time to get entry: 1185 ns
+Time to get entry: 1184 ns
 Entry 10
 Time to get entry: 1579 ns
 Entry 11
 Time to get entry: 1579 ns
 Entry 12
-Time to get entry: 1974 ns
+Time to get entry: 1184 ns
 Entry 13
-Time to get entry: 1184 ns
+Time to get entry: 1579 ns
 Entry 14
-Time to get entry: 1184 ns
+Time to get entry: 1185 ns
 Entry 15
-Time to get entry: 1973 ns
+Time to get entry: 1579 ns
 Entry 16
-Time to get entry: 3948 ns
+Time to get entry: 1579 ns
 Entry 17
-Time to get entry: 3553 ns
+Time to get entry: 1578 ns
 Entry 18
-Time to get entry: 2368 ns
-Entry 19
 Time to get entry: 1974 ns
+Entry 19
+Time to get entry: 1579 ns
 Entry 20
 Time to get entry: 1579 ns
 Entry 21
-Time to get entry: 2369 ns
+Time to get entry: 1578 ns
 Entry 22
 Time to get entry: 1579 ns
 Entry 23
-Time to get entry: 4342 ns
+Time to get entry: 1579 ns
 Entry 24
-Time to get entry: 1579 ns
+Time to get entry: 1184 ns
 Entry 25
-Time to get entry: 1579 ns
+Time to get entry: 3948 ns
 Entry 26
-Time to get entry: 1579 ns
+Time to get entry: 1184 ns
 Entry 27
 Time to get entry: 1579 ns
 Entry 28
-Time to get entry: 12238 ns
+Time to get entry: 1974 ns
 Entry 29
-Time to get entry: 1974 ns
+Time to get entry: 1184 ns
 Entry 30
-Time to get entry: 1974 ns
+Time to get entry: 1579 ns
 Entry 31
 Time to get entry: 1579 ns
 Entry 32
-Time to get entry: 1579 ns
+Time to get entry: 1974 ns
 Entry 33
 Time to get entry: 1579 ns
 Entry 34
-Time to get entry: 6317 ns
+Time to get entry: 1579 ns
 Entry 35
-Time to get entry: 7105 ns
+Time to get entry: 1579 ns
 Entry 36
-Time to get entry: 3553 ns
-Entry 37
 Time to get entry: 1974 ns
+Entry 37
+Time to get entry: 1579 ns
 Entry 38
-Time to get entry: 2368 ns
+Time to get entry: 1579 ns
 Entry 39
-Time to get entry: 1578 ns
+Time to get entry: 1579 ns
 Entry 40
 Time to get entry: 1579 ns
 Entry 41
-Time to get entry: 1579 ns
+Time to get entry: 1185 ns
 Entry 42
-Time to get entry: 1184 ns
+Time to get entry: 1579 ns
 Entry 43
 Time to get entry: 1184 ns
 Entry 44
 Time to get entry: 1579 ns
 Entry 45
-Time to get entry: 1579 ns
+Time to get entry: 1580 ns
 Entry 46
 Time to get entry: 1184 ns
 Entry 47
-Time to get entry: 1579 ns
-Entry 48
 Time to get entry: 1184 ns
-Entry 49
-Time to get entry: 1185 ns
-Entry 50
+Entry 48
 Time to get entry: 1579 ns
-Time to remove entry: 9474 ns
-Time to remove entry: 2763 ns
-Time to remove entry: 1580 ns
-Time to remove entry: 789 ns
+Entry 49
+Time to get entry: 1974 ns
+Entry 50
+Time to get entry: 1184 ns
+Time to remove entry: 7106 ns
+Time to remove entry: 1579 ns
+Time to remove entry: 1184 ns
+Time to remove entry: 1184 ns
 Time to remove entry: 1185 ns
-Time to remove entry: 1184 ns
 Time to remove entry: 790 ns
 Time to remove entry: 789 ns
-Time to remove entry: 1185 ns
-Time to remove entry: 1184 ns
-Time to remove entry: 789 ns
-Time to remove entry: 789 ns
 Time to remove entry: 790 ns
-Time to remove entry: 3947 ns
-Time to remove entry: 790 ns
-Time to remove entry: 1184 ns
-Time to remove entry: 789 ns
-Time to remove entry: 790 ns
-Time to remove entry: 789 ns
 Time to remove entry: 790 ns
 Time to remove entry: 395 ns
-Time to remove entry: 789 ns
 Time to remove entry: 790 ns
-Time to remove entry: 1184 ns
+Time to remove entry: 789 ns
+Time to remove entry: 789 ns
+Time to remove entry: 2369 ns
+Time to remove entry: 790 ns
+Time to remove entry: 790 ns
+Time to remove entry: 789 ns
+Time to remove entry: 789 ns
+Time to remove entry: 789 ns
+Time to remove entry: 395 ns
+Time to remove entry: 790 ns
+Time to remove entry: 790 ns
+Time to remove entry: 790 ns
+Time to remove entry: 790 ns
 Time to remove entry: 790 ns
 
-0) null
+0) Key: 1891277300 value: Entry 32 
 1) null
 2) null
 3) null
-4) Key: 2037566704 value: Entry 49 
+4) null
 5) null
 6) null
 7) null
-8) null
+8) Key: 1680919508 value: Entry 31 
 9) null
 10) null
-11) Key: 1785928911 value: Entry 26 
+11) null
 12) null
-13) null
+13) Key: 627813 value: Entry 38 
 14) null
 15) null
 16) null
 17) null
 18) null
 19) null
-20) null
+20) Key: 534111720 value: Entry 48 
 21) null
 22) null
 23) null
 24) null
 25) null
-26) Key: 1141030326 value: Entry 27 
+26) null
 27) null
-28) null
+28) Key: 915528728 value: Entry 33 Key: 1184797728 value: Entry 49 
 29) null
-30) Key: 1985401330 value: Entry 30 
+30) null
 31) null
 32) null
 33) null
-34) null
-35) null
-36) null
+34) Key: 514486934 value: Entry 30 
+35) Key: 1492619835 value: Entry 36 
+36) Key: 1808625536 value: Entry 50 
 37) null
-38) null
-39) Key: 1851048339 value: Entry 47 
-40) Key: 1432019840 value: Entry 50 
+38) Key: 1946049438 value: Entry 39 
+39) Key: 1264372539 value: Entry 29 
+40) null
 41) null
 42) null
-43) null
+43) Key: 1451028443 value: Entry 47 
 44) null
 45) null
-46) Key: 349361146 value: Entry 48 
-47) Key: 393595847 value: Entry 32 
-48) Key: 766282248 value: Entry 43 
+46) null
+47) Key: 1602131947 value: Entry 34 Key: 164381847 value: Entry 44 
+48) null
 49) null
 50) null
 51) null
 52) null
 53) null
-54) Key: 956592654 value: Entry 28 
-55) Key: 775041855 value: Entry 33 Key: 162251255 value: Entry 40 
+54) Key: 697453554 value: Entry 42 
+55) null
 56) null
-57) Key: 393089457 value: Entry 31 
-58) Key: 1470540558 value: Entry 36 
-59) Key: 2093221359 value: Entry 38 
-60) null
+57) null
+58) null
+59) null
+60) Key: 1756336560 value: Entry 43 
 61) null
 62) null
 63) null
-64) Key: 86628264 value: Entry 41 
-65) Key: 138096265 value: Entry 44 
+64) null
+65) null
 66) null
-67) null
+67) Key: 231279567 value: Entry 27 
 68) null
 69) null
 70) null
-71) Key: 566336371 value: Entry 42 
+71) null
 72) null
-73) Key: 697020673 value: Entry 35 
-74) null
+73) Key: 140929173 value: Entry 26 
+74) Key: 503411474 value: Entry 28 
 75) null
 76) null
 77) null
-78) Key: 882867678 value: Entry 29 Key: 271843678 value: Entry 37 
+78) Key: 1570960578 value: Entry 45 
 79) null
-80) null
-81) null
-82) Key: 2047268582 value: Entry 34 
+80) Key: 457487180 value: Entry 35 
+81) Key: 697756681 value: Entry 40 
+82) Key: 206933882 value: Entry 46 
 83) null
 84) null
 85) null
-86) Key: 704808886 value: Entry 39 
+86) null
 87) null
-88) Key: 1104099688 value: Entry 46 
+88) null
 89) null
 90) null
 91) null
-92) Key: 1934851892 value: Entry 45 
+92) null
 93) null
 94) null
 95) null
-96) null
+96) Key: 947887496 value: Entry 37 Key: 1359915796 value: Entry 41 
 97) null
 98) null
 99) null
 
 null
-Time to get entry: 2763 ns
+Time to get entry: 3158 ns
 null
-Time to get entry: 5921 ns
+Time to get entry: 4342 ns
 null
-Time to get entry: 6711 ns
-null
-Time to get entry: 1974 ns
-null
-Time to get entry: 1578 ns
-null
-Time to get entry: 1579 ns
-null
-Time to get entry: 1184 ns
-null
-Time to get entry: 1185 ns
-null
-Time to get entry: 1184 ns
-null
-Time to get entry: 1184 ns
-null
-Time to get entry: 1974 ns
-null
-Time to get entry: 1185 ns
-null
-Time to get entry: 1185 ns
-null
-Time to get entry: 1184 ns
-null
-Time to get entry: 1185 ns
-null
-Time to get entry: 1185 ns
-null
-Time to get entry: 1184 ns
-null
-Time to get entry: 1185 ns
-null
-Time to get entry: 1184 ns
-null
-Time to get entry: 1184 ns
-null
-Time to get entry: 1579 ns
-null
-Time to get entry: 1579 ns
-null
-Time to get entry: 1974 ns
-null
-Time to get entry: 1185 ns
-null
-Time to get entry: 2369 ns
-Entry 26
 Time to get entry: 5132 ns
+null
+Time to get entry: 1185 ns
+null
+Time to get entry: 789 ns
+null
+Time to get entry: 1579 ns
+null
+Time to get entry: 790 ns
+null
+Time to get entry: 790 ns
+null
+Time to get entry: 789 ns
+null
+Time to get entry: 394 ns
+null
+Time to get entry: 790 ns
+null
+Time to get entry: 790 ns
+null
+Time to get entry: 790 ns
+null
+Time to get entry: 789 ns
+null
+Time to get entry: 1579 ns
+null
+Time to get entry: 789 ns
+null
+Time to get entry: 394 ns
+null
+Time to get entry: 789 ns
+null
+Time to get entry: 1185 ns
+null
+Time to get entry: 1184 ns
+null
+Time to get entry: 1974 ns
+null
+Time to get entry: 789 ns
+null
+Time to get entry: 789 ns
+null
+Time to get entry: 790 ns
+null
+Time to get entry: 1185 ns
+Entry 26
+Time to get entry: 1974 ns
 Entry 27
-Time to get entry: 1973 ns
+Time to get entry: 1184 ns
 Entry 28
-Time to get entry: 4343 ns
-Entry 29
-Time to get entry: 1974 ns
-Entry 30
-Time to get entry: 1579 ns
-Entry 31
-Time to get entry: 1579 ns
-Entry 32
-Time to get entry: 1579 ns
-Entry 33
-Time to get entry: 1579 ns
-Entry 34
-Time to get entry: 1579 ns
-Entry 35
-Time to get entry: 1579 ns
-Entry 36
-Time to get entry: 1579 ns
-Entry 37
-Time to get entry: 2369 ns
-Entry 38
-Time to get entry: 1974 ns
-Entry 39
-Time to get entry: 1974 ns
-Entry 40
-Time to get entry: 1579 ns
-Entry 41
-Time to get entry: 1974 ns
-Entry 42
-Time to get entry: 1579 ns
-Entry 43
-Time to get entry: 1579 ns
-Entry 44
-Time to get entry: 1974 ns
-Entry 45
 Time to get entry: 1973 ns
+Entry 29
+Time to get entry: 1184 ns
+Entry 30
+Time to get entry: 1185 ns
+Entry 31
+Time to get entry: 1184 ns
+Entry 32
+Time to get entry: 1184 ns
+Entry 33
+Time to get entry: 789 ns
+Entry 34
+Time to get entry: 1184 ns
+Entry 35
+Time to get entry: 1184 ns
+Entry 36
+Time to get entry: 789 ns
+Entry 37
+Time to get entry: 1184 ns
+Entry 38
+Time to get entry: 1184 ns
+Entry 39
+Time to get entry: 789 ns
+Entry 40
+Time to get entry: 1184 ns
+Entry 41
+Time to get entry: 1184 ns
+Entry 42
+Time to get entry: 1184 ns
+Entry 43
+Time to get entry: 1184 ns
+Entry 44
+Time to get entry: 1185 ns
+Entry 45
+Time to get entry: 1184 ns
 Entry 46
-Time to get entry: 1578 ns
+Time to get entry: 1185 ns
 Entry 47
-Time to get entry: 2368 ns
+Time to get entry: 1974 ns
 Entry 48
-Time to get entry: 1579 ns
+Time to get entry: 1184 ns
 Entry 49
-Time to get entry: 1579 ns
+Time to get entry: 1184 ns
 Entry 50
-Time to get entry: 1579 ns
+Time to get entry: 790 ns
 
 
 STEP 5
@@ -686,1580 +686,1580 @@ STEP 5
 
 Separate Chaining
 
-Time to add entry: 5921 ns
+Time to add entry: 5132 ns
 Size of the table: 100
 Number of elements: 1
 Number of collisions: 0
 
-Time to add entry: 4343 ns
+Time to add entry: 5526 ns
 Size of the table: 100
 Number of elements: 2
 Number of collisions: 0
 
-Time to add entry: 2369 ns
+Time to add entry: 6316 ns
 Size of the table: 100
 Number of elements: 3
 Number of collisions: 0
 
-Time to add entry: 1974 ns
+Time to add entry: 1973 ns
 Size of the table: 100
 Number of elements: 4
 Number of collisions: 0
 
-Time to add entry: 1184 ns
+Time to add entry: 2369 ns
 Size of the table: 100
 Number of elements: 5
 Number of collisions: 0
 
-Time to add entry: 1185 ns
+Time to add entry: 1579 ns
 Size of the table: 100
 Number of elements: 6
 Number of collisions: 0
 
-Time to add entry: 4343 ns
+Time to add entry: 5132 ns
 Size of the table: 100
 Number of elements: 7
 Number of collisions: 0
 
-Time to add entry: 59213 ns
+Time to add entry: 1579 ns
 Size of the table: 100
 Number of elements: 8
 Number of collisions: 0
 
-Time to add entry: 3553 ns
+Time to add entry: 1579 ns
 Size of the table: 100
 Number of elements: 9
 Number of collisions: 0
 
-Time to add entry: 2368 ns
+Time to add entry: 1579 ns
 Size of the table: 100
 Number of elements: 10
 Number of collisions: 0
 
-Time to add entry: 2369 ns
+Time to add entry: 1579 ns
 Size of the table: 100
 Number of elements: 11
 Number of collisions: 0
 
-Time to add entry: 2763 ns
+Time to add entry: 1579 ns
 Size of the table: 100
 Number of elements: 12
 Number of collisions: 0
 
-Time to add entry: 1974 ns
+Time to add entry: 1973 ns
 Size of the table: 100
 Number of elements: 13
 Number of collisions: 0
 
-Time to add entry: 7500 ns
+Time to add entry: 7105 ns
 Size of the table: 100
 Number of elements: 14
 Number of collisions: 0
 
-Time to add entry: 1974 ns
+Time to add entry: 1579 ns
 Size of the table: 100
 Number of elements: 15
 Number of collisions: 0
 
-Time to add entry: 1578 ns
+Time to add entry: 1579 ns
 Size of the table: 100
 Number of elements: 16
-Number of collisions: 0
+Number of collisions: 1
+
+Time to add entry: 1579 ns
+Size of the table: 100
+Number of elements: 17
+Number of collisions: 1
+
+Time to add entry: 1184 ns
+Size of the table: 100
+Number of elements: 18
+Number of collisions: 1
 
 Time to add entry: 1974 ns
 Size of the table: 100
-Number of elements: 17
-Number of collisions: 0
-
-Time to add entry: 2369 ns
-Size of the table: 100
-Number of elements: 18
-Number of collisions: 0
-
-Time to add entry: 2369 ns
-Size of the table: 100
 Number of elements: 19
-Number of collisions: 0
+Number of collisions: 1
 
-Time to add entry: 1579 ns
+Time to add entry: 1184 ns
 Size of the table: 100
 Number of elements: 20
 Number of collisions: 1
 
-Time to add entry: 1974 ns
+Time to add entry: 1579 ns
 Size of the table: 100
 Number of elements: 21
 Number of collisions: 1
 
-Time to add entry: 1973 ns
+Time to add entry: 1184 ns
 Size of the table: 100
 Number of elements: 22
-Number of collisions: 1
+Number of collisions: 2
 
-Time to add entry: 1974 ns
+Time to add entry: 1579 ns
 Size of the table: 100
 Number of elements: 23
-Number of collisions: 1
+Number of collisions: 3
 
-Time to add entry: 1974 ns
+Time to add entry: 1579 ns
 Size of the table: 100
 Number of elements: 24
-Number of collisions: 1
+Number of collisions: 3
 
-Time to add entry: 2369 ns
+Time to add entry: 1579 ns
 Size of the table: 100
 Number of elements: 25
-Number of collisions: 1
+Number of collisions: 3
 
 Time to add entry: 1974 ns
 Size of the table: 100
 Number of elements: 26
-Number of collisions: 1
+Number of collisions: 3
 
-Time to add entry: 8290 ns
+Time to add entry: 14211 ns
 Size of the table: 100
 Number of elements: 27
-Number of collisions: 2
+Number of collisions: 3
 
-Time to add entry: 2763 ns
+Time to add entry: 6316 ns
 Size of the table: 100
 Number of elements: 28
 Number of collisions: 3
 
-Time to add entry: 4738 ns
+Time to add entry: 3553 ns
 Size of the table: 100
 Number of elements: 29
-Number of collisions: 3
+Number of collisions: 4
 
-Time to add entry: 3158 ns
+Time to add entry: 2368 ns
 Size of the table: 100
 Number of elements: 30
-Number of collisions: 3
+Number of collisions: 5
 
-Time to add entry: 2369 ns
+Time to add entry: 1974 ns
 Size of the table: 100
 Number of elements: 31
-Number of collisions: 3
+Number of collisions: 6
 
 Time to add entry: 2369 ns
 Size of the table: 100
 Number of elements: 32
-Number of collisions: 3
+Number of collisions: 6
 
 Time to add entry: 1974 ns
 Size of the table: 100
 Number of elements: 33
-Number of collisions: 3
+Number of collisions: 6
 
-Time to add entry: 2369 ns
+Time to add entry: 1974 ns
 Size of the table: 100
 Number of elements: 34
-Number of collisions: 3
+Number of collisions: 7
 
-Time to add entry: 1579 ns
+Time to add entry: 1184 ns
 Size of the table: 100
 Number of elements: 35
-Number of collisions: 4
+Number of collisions: 8
 
-Time to add entry: 6710 ns
+Time to add entry: 1974 ns
 Size of the table: 100
 Number of elements: 36
-Number of collisions: 5
+Number of collisions: 8
 
-Time to add entry: 2368 ns
+Time to add entry: 5132 ns
 Size of the table: 100
 Number of elements: 37
-Number of collisions: 5
+Number of collisions: 8
 
-Time to add entry: 1974 ns
+Time to add entry: 1579 ns
 Size of the table: 100
 Number of elements: 38
-Number of collisions: 5
+Number of collisions: 8
 
-Time to add entry: 1974 ns
+Time to add entry: 1184 ns
 Size of the table: 100
 Number of elements: 39
-Number of collisions: 5
-
-Time to add entry: 1579 ns
-Size of the table: 100
-Number of elements: 40
-Number of collisions: 5
-
-Time to add entry: 1579 ns
-Size of the table: 100
-Number of elements: 41
-Number of collisions: 5
-
-Time to add entry: 1185 ns
-Size of the table: 100
-Number of elements: 42
-Number of collisions: 6
-
-Time to add entry: 1579 ns
-Size of the table: 100
-Number of elements: 43
-Number of collisions: 6
-
-Time to add entry: 1974 ns
-Size of the table: 100
-Number of elements: 44
-Number of collisions: 6
-
-Time to add entry: 1974 ns
-Size of the table: 100
-Number of elements: 45
-Number of collisions: 7
-
-Time to add entry: 1974 ns
-Size of the table: 100
-Number of elements: 46
-Number of collisions: 7
-
-Time to add entry: 3553 ns
-Size of the table: 100
-Number of elements: 47
-Number of collisions: 7
-
-Time to add entry: 1974 ns
-Size of the table: 100
-Number of elements: 48
-Number of collisions: 8
-
-Time to add entry: 2369 ns
-Size of the table: 100
-Number of elements: 49
-Number of collisions: 8
-
-Time to add entry: 1579 ns
-Size of the table: 100
-Number of elements: 50
 Number of collisions: 9
 
 Time to add entry: 1579 ns
 Size of the table: 100
-Number of elements: 51
+Number of elements: 40
+Number of collisions: 9
+
+Time to add entry: 1579 ns
+Size of the table: 100
+Number of elements: 41
+Number of collisions: 9
+
+Time to add entry: 1580 ns
+Size of the table: 100
+Number of elements: 42
+Number of collisions: 9
+
+Time to add entry: 1579 ns
+Size of the table: 100
+Number of elements: 43
+Number of collisions: 9
+
+Time to add entry: 1185 ns
+Size of the table: 100
+Number of elements: 44
 Number of collisions: 10
 
-Time to add entry: 1974 ns
+Time to add entry: 1184 ns
 Size of the table: 100
-Number of elements: 52
-Number of collisions: 10
-
-Time to add entry: 6316 ns
-Size of the table: 100
-Number of elements: 53
+Number of elements: 45
 Number of collisions: 11
 
-Time to add entry: 2368 ns
+Time to add entry: 1184 ns
 Size of the table: 100
-Number of elements: 54
+Number of elements: 46
+Number of collisions: 11
+
+Time to add entry: 1185 ns
+Size of the table: 100
+Number of elements: 47
+Number of collisions: 12
+
+Time to add entry: 1184 ns
+Size of the table: 100
+Number of elements: 48
+Number of collisions: 12
+
+Time to add entry: 1579 ns
+Size of the table: 100
+Number of elements: 49
+Number of collisions: 12
+
+Time to add entry: 88425 ns
+Size of the table: 100
+Number of elements: 50
+Number of collisions: 12
+
+Time to add entry: 4342 ns
+Size of the table: 100
+Number of elements: 51
 Number of collisions: 12
 
 Time to add entry: 1974 ns
 Size of the table: 100
-Number of elements: 55
-Number of collisions: 13
+Number of elements: 52
+Number of collisions: 12
 
-Time to add entry: 2763 ns
+Time to add entry: 112111 ns
+Size of the table: 100
+Number of elements: 53
+Number of collisions: 12
+
+Time to add entry: 642664 ns
+Size of the table: 100
+Number of elements: 54
+Number of collisions: 12
+
+Time to add entry: 3947 ns
+Size of the table: 100
+Number of elements: 55
+Number of collisions: 12
+
+Time to add entry: 194615 ns
 Size of the table: 100
 Number of elements: 56
-Number of collisions: 13
+Number of collisions: 12
 
-Time to add entry: 1578 ns
+Time to add entry: 16185 ns
 Size of the table: 100
 Number of elements: 57
 Number of collisions: 13
 
-Time to add entry: 1974 ns
+Time to add entry: 1579 ns
 Size of the table: 100
 Number of elements: 58
-Number of collisions: 13
-
-Time to add entry: 1579 ns
-Size of the table: 100
-Number of elements: 59
-Number of collisions: 13
-
-Time to add entry: 2368 ns
-Size of the table: 100
-Number of elements: 60
-Number of collisions: 13
-
-Time to add entry: 2369 ns
-Size of the table: 100
-Number of elements: 61
-Number of collisions: 13
-
-Time to add entry: 1580 ns
-Size of the table: 100
-Number of elements: 62
-Number of collisions: 14
-
-Time to add entry: 1579 ns
-Size of the table: 100
-Number of elements: 63
 Number of collisions: 14
 
 Time to add entry: 1184 ns
 Size of the table: 100
-Number of elements: 64
+Number of elements: 59
+Number of collisions: 15
+
+Time to add entry: 5922 ns
+Size of the table: 100
+Number of elements: 60
 Number of collisions: 15
 
 Time to add entry: 1579 ns
 Size of the table: 100
+Number of elements: 61
+Number of collisions: 15
+
+Time to add entry: 1184 ns
+Size of the table: 100
+Number of elements: 62
+Number of collisions: 16
+
+Time to add entry: 1579 ns
+Size of the table: 100
+Number of elements: 63
+Number of collisions: 16
+
+Time to add entry: 1185 ns
+Size of the table: 100
+Number of elements: 64
+Number of collisions: 16
+
+Time to add entry: 1184 ns
+Size of the table: 100
 Number of elements: 65
 Number of collisions: 16
 
-Time to add entry: 1974 ns
+Time to add entry: 1184 ns
 Size of the table: 100
 Number of elements: 66
 Number of collisions: 16
 
-Time to add entry: 2369 ns
+Time to add entry: 1185 ns
 Size of the table: 100
 Number of elements: 67
 Number of collisions: 16
 
-Time to add entry: 1185 ns
+Time to add entry: 1184 ns
 Size of the table: 100
 Number of elements: 68
-Number of collisions: 17
+Number of collisions: 16
 
-Time to add entry: 1579 ns
+Time to add entry: 1184 ns
 Size of the table: 100
 Number of elements: 69
+Number of collisions: 17
+
+Time to add entry: 790 ns
+Size of the table: 100
+Number of elements: 70
+Number of collisions: 17
+
+Time to add entry: 1184 ns
+Size of the table: 100
+Number of elements: 71
+Number of collisions: 17
+
+Time to add entry: 1184 ns
+Size of the table: 100
+Number of elements: 72
+Number of collisions: 17
+
+Time to add entry: 1185 ns
+Size of the table: 100
+Number of elements: 73
+Number of collisions: 17
+
+Time to add entry: 789 ns
+Size of the table: 100
+Number of elements: 74
 Number of collisions: 18
 
 Time to add entry: 1184 ns
 Size of the table: 100
-Number of elements: 70
-Number of collisions: 19
-
-Time to add entry: 1974 ns
-Size of the table: 100
-Number of elements: 71
-Number of collisions: 19
-
-Time to add entry: 1974 ns
-Size of the table: 100
-Number of elements: 72
-Number of collisions: 20
-
-Time to add entry: 1579 ns
-Size of the table: 100
-Number of elements: 73
-Number of collisions: 21
-
-Time to add entry: 1579 ns
-Size of the table: 100
-Number of elements: 74
-Number of collisions: 22
-
-Time to add entry: 1184 ns
-Size of the table: 100
 Number of elements: 75
-Number of collisions: 23
-
-Time to add entry: 4737 ns
-Size of the table: 100
-Number of elements: 76
-Number of collisions: 23
-
-Time to add entry: 1579 ns
-Size of the table: 100
-Number of elements: 77
-Number of collisions: 24
-
-Time to add entry: 5527 ns
-Size of the table: 100
-Number of elements: 78
-Number of collisions: 25
-
-Time to add entry: 1579 ns
-Size of the table: 100
-Number of elements: 79
-Number of collisions: 26
-
-Time to add entry: 2763 ns
-Size of the table: 100
-Number of elements: 80
-Number of collisions: 26
-
-Time to add entry: 1579 ns
-Size of the table: 100
-Number of elements: 81
-Number of collisions: 26
-
-Time to add entry: 1974 ns
-Size of the table: 100
-Number of elements: 82
-Number of collisions: 26
-
-Time to add entry: 1579 ns
-Size of the table: 100
-Number of elements: 83
-Number of collisions: 27
-
-Time to add entry: 5921 ns
-Size of the table: 100
-Number of elements: 84
-Number of collisions: 27
-
-Time to add entry: 1579 ns
-Size of the table: 100
-Number of elements: 85
-Number of collisions: 28
+Number of collisions: 18
 
 Time to add entry: 1185 ns
 Size of the table: 100
-Number of elements: 86
-Number of collisions: 29
+Number of elements: 76
+Number of collisions: 18
 
-Time to add entry: 1579 ns
+Time to add entry: 1184 ns
+Size of the table: 100
+Number of elements: 77
+Number of collisions: 18
+
+Time to add entry: 4737 ns
+Size of the table: 100
+Number of elements: 78
+Number of collisions: 19
+
+Time to add entry: 789 ns
+Size of the table: 100
+Number of elements: 79
+Number of collisions: 20
+
+Time to add entry: 1184 ns
+Size of the table: 100
+Number of elements: 80
+Number of collisions: 20
+
+Time to add entry: 790 ns
+Size of the table: 100
+Number of elements: 81
+Number of collisions: 20
+
+Time to add entry: 790 ns
+Size of the table: 100
+Number of elements: 82
+Number of collisions: 21
+
+Time to add entry: 3948 ns
+Size of the table: 100
+Number of elements: 83
+Number of collisions: 21
+
+Time to add entry: 1184 ns
+Size of the table: 100
+Number of elements: 84
+Number of collisions: 21
+
+Time to add entry: 1185 ns
+Size of the table: 100
+Number of elements: 85
+Number of collisions: 21
+
+Time to add entry: 789 ns
+Size of the table: 100
+Number of elements: 86
+Number of collisions: 22
+
+Time to add entry: 789 ns
 Size of the table: 100
 Number of elements: 87
-Number of collisions: 30
+Number of collisions: 23
 
-Time to add entry: 1974 ns
+Time to add entry: 789 ns
 Size of the table: 100
 Number of elements: 88
-Number of collisions: 30
+Number of collisions: 24
 
-Time to add entry: 1579 ns
+Time to add entry: 789 ns
 Size of the table: 100
 Number of elements: 89
-Number of collisions: 30
+Number of collisions: 25
 
-Time to add entry: 1579 ns
+Time to add entry: 790 ns
 Size of the table: 100
 Number of elements: 90
-Number of collisions: 30
+Number of collisions: 25
 
-Time to add entry: 1579 ns
+Time to add entry: 1185 ns
 Size of the table: 100
 Number of elements: 91
-Number of collisions: 30
+Number of collisions: 26
 
-Time to add entry: 2369 ns
+Time to add entry: 1184 ns
 Size of the table: 100
 Number of elements: 92
-Number of collisions: 30
+Number of collisions: 26
 
-Time to add entry: 1973 ns
+Time to add entry: 790 ns
 Size of the table: 100
 Number of elements: 93
-Number of collisions: 30
+Number of collisions: 27
 
-Time to add entry: 1974 ns
+Time to add entry: 1185 ns
 Size of the table: 100
 Number of elements: 94
-Number of collisions: 30
+Number of collisions: 27
 
-Time to add entry: 1974 ns
+Time to add entry: 789 ns
 Size of the table: 100
 Number of elements: 95
-Number of collisions: 30
+Number of collisions: 28
 
-Time to add entry: 1579 ns
+Time to add entry: 789 ns
 Size of the table: 100
 Number of elements: 96
-Number of collisions: 31
+Number of collisions: 29
 
-Time to add entry: 1579 ns
+Time to add entry: 789 ns
 Size of the table: 100
 Number of elements: 97
-Number of collisions: 31
+Number of collisions: 30
 
-Time to add entry: 1579 ns
+Time to add entry: 1185 ns
 Size of the table: 100
 Number of elements: 98
+Number of collisions: 30
+
+Time to add entry: 790 ns
+Size of the table: 100
+Number of elements: 99
+Number of collisions: 31
+
+Time to add entry: 1184 ns
+Size of the table: 100
+Number of elements: 100
 Number of collisions: 32
 
 Time to add entry: 1184 ns
 Size of the table: 100
-Number of elements: 99
-Number of collisions: 33
-
-Time to add entry: 1579 ns
-Size of the table: 100
-Number of elements: 100
-Number of collisions: 33
-
-Time to add entry: 2369 ns
-Size of the table: 100
 Number of elements: 101
-Number of collisions: 33
+Number of collisions: 32
 
-Time to add entry: 1184 ns
+Time to add entry: 789 ns
 Size of the table: 100
 Number of elements: 102
-Number of collisions: 34
+Number of collisions: 33
 
-Time to add entry: 1579 ns
+Time to add entry: 790 ns
 Size of the table: 100
 Number of elements: 103
-Number of collisions: 35
+Number of collisions: 34
 
-Time to add entry: 1579 ns
+Time to add entry: 1185 ns
 Size of the table: 100
 Number of elements: 104
-Number of collisions: 35
+Number of collisions: 34
 
-Time to add entry: 1974 ns
+Time to add entry: 1184 ns
 Size of the table: 100
 Number of elements: 105
 Number of collisions: 35
 
-Time to add entry: 5921 ns
+Time to add entry: 2368 ns
 Size of the table: 100
 Number of elements: 106
 Number of collisions: 36
 
-Time to add entry: 4343 ns
+Time to add entry: 2369 ns
 Size of the table: 100
 Number of elements: 107
 Number of collisions: 36
 
-Time to add entry: 3553 ns
+Time to add entry: 1184 ns
 Size of the table: 100
 Number of elements: 108
-Number of collisions: 36
+Number of collisions: 37
 
-Time to add entry: 4737 ns
+Time to add entry: 1579 ns
 Size of the table: 100
 Number of elements: 109
 Number of collisions: 37
 
-Time to add entry: 23685 ns
+Time to add entry: 790 ns
 Size of the table: 100
 Number of elements: 110
 Number of collisions: 38
 
-Time to add entry: 4343 ns
+Time to add entry: 790 ns
 Size of the table: 100
 Number of elements: 111
-Number of collisions: 38
+Number of collisions: 39
 
-Time to add entry: 2764 ns
+Time to add entry: 1184 ns
 Size of the table: 100
 Number of elements: 112
-Number of collisions: 38
+Number of collisions: 39
 
-Time to add entry: 1974 ns
+Time to add entry: 1184 ns
 Size of the table: 100
 Number of elements: 113
-Number of collisions: 39
-
-Time to add entry: 2763 ns
-Size of the table: 100
-Number of elements: 114
-Number of collisions: 39
-
-Time to add entry: 2369 ns
-Size of the table: 100
-Number of elements: 115
 Number of collisions: 40
 
-Time to add entry: 2763 ns
+Time to add entry: 1184 ns
 Size of the table: 100
-Number of elements: 116
+Number of elements: 114
 Number of collisions: 41
 
-Time to add entry: 4342 ns
+Time to add entry: 789 ns
 Size of the table: 100
-Number of elements: 117
-Number of collisions: 41
-
-Time to add entry: 2764 ns
-Size of the table: 100
-Number of elements: 118
-Number of collisions: 41
-
-Time to add entry: 2369 ns
-Size of the table: 100
-Number of elements: 119
+Number of elements: 115
 Number of collisions: 42
 
-Time to add entry: 2368 ns
+Time to add entry: 4737 ns
 Size of the table: 100
-Number of elements: 120
+Number of elements: 116
+Number of collisions: 42
+
+Time to add entry: 1579 ns
+Size of the table: 100
+Number of elements: 117
 Number of collisions: 43
 
-Time to add entry: 1974 ns
+Time to add entry: 1184 ns
 Size of the table: 100
-Number of elements: 121
+Number of elements: 118
 Number of collisions: 44
 
 Time to add entry: 1579 ns
 Size of the table: 100
-Number of elements: 122
+Number of elements: 119
+Number of collisions: 44
+
+Time to add entry: 5527 ns
+Size of the table: 100
+Number of elements: 120
+Number of collisions: 44
+
+Time to add entry: 1184 ns
+Size of the table: 100
+Number of elements: 121
 Number of collisions: 45
 
-Time to add entry: 2369 ns
+Time to add entry: 1184 ns
+Size of the table: 100
+Number of elements: 122
+Number of collisions: 46
+
+Time to add entry: 1185 ns
 Size of the table: 100
 Number of elements: 123
-Number of collisions: 45
+Number of collisions: 47
 
 Time to add entry: 1185 ns
 Size of the table: 100
 Number of elements: 124
-Number of collisions: 46
-
-Time to add entry: 1580 ns
-Size of the table: 100
-Number of elements: 125
-Number of collisions: 47
-
-Time to add entry: 4342 ns
-Size of the table: 100
-Number of elements: 126
 Number of collisions: 48
 
-Time to add entry: 1579 ns
+Time to add entry: 1184 ns
 Size of the table: 100
-Number of elements: 127
+Number of elements: 125
 Number of collisions: 49
 
-Time to add entry: 2369 ns
+Time to add entry: 1184 ns
+Size of the table: 100
+Number of elements: 126
+Number of collisions: 49
+
+Time to add entry: 1184 ns
+Size of the table: 100
+Number of elements: 127
+Number of collisions: 50
+
+Time to add entry: 1579 ns
 Size of the table: 100
 Number of elements: 128
 Number of collisions: 50
 
-Time to add entry: 2763 ns
+Time to add entry: 790 ns
 Size of the table: 100
 Number of elements: 129
-Number of collisions: 50
-
-Time to add entry: 2368 ns
-Size of the table: 100
-Number of elements: 130
-Number of collisions: 50
-
-Time to add entry: 1974 ns
-Size of the table: 100
-Number of elements: 131
 Number of collisions: 51
 
-Time to add entry: 5527 ns
+Time to add entry: 789 ns
 Size of the table: 100
-Number of elements: 132
+Number of elements: 130
 Number of collisions: 52
 
-Time to add entry: 3159 ns
+Time to add entry: 1579 ns
+Size of the table: 100
+Number of elements: 131
+Number of collisions: 53
+
+Time to add entry: 1579 ns
+Size of the table: 100
+Number of elements: 132
+Number of collisions: 53
+
+Time to add entry: 1184 ns
 Size of the table: 100
 Number of elements: 133
 Number of collisions: 53
 
-Time to add entry: 4342 ns
+Time to add entry: 1184 ns
 Size of the table: 100
 Number of elements: 134
 Number of collisions: 54
 
-Time to add entry: 5132 ns
+Time to add entry: 1185 ns
 Size of the table: 100
 Number of elements: 135
-Number of collisions: 54
-
-Time to add entry: 3158 ns
-Size of the table: 100
-Number of elements: 136
 Number of collisions: 55
 
-Time to add entry: 2369 ns
+Time to add entry: 1185 ns
+Size of the table: 100
+Number of elements: 136
+Number of collisions: 56
+
+Time to add entry: 790 ns
 Size of the table: 100
 Number of elements: 137
-Number of collisions: 56
-
-Time to add entry: 2763 ns
-Size of the table: 100
-Number of elements: 138
-Number of collisions: 56
-
-Time to add entry: 1974 ns
-Size of the table: 100
-Number of elements: 139
 Number of collisions: 57
 
-Time to add entry: 1974 ns
+Time to add entry: 1184 ns
 Size of the table: 100
-Number of elements: 140
+Number of elements: 138
 Number of collisions: 58
 
-Time to add entry: 1579 ns
+Time to add entry: 1184 ns
 Size of the table: 100
-Number of elements: 141
+Number of elements: 139
 Number of collisions: 59
 
-Time to add entry: 2763 ns
-Size of the table: 100
-Number of elements: 142
-Number of collisions: 60
-
 Time to add entry: 1579 ns
 Size of the table: 100
+Number of elements: 140
+Number of collisions: 60
+
+Time to add entry: 790 ns
+Size of the table: 100
+Number of elements: 141
+Number of collisions: 61
+
+Time to add entry: 1580 ns
+Size of the table: 100
+Number of elements: 142
+Number of collisions: 61
+
+Time to add entry: 790 ns
+Size of the table: 100
 Number of elements: 143
-Number of collisions: 61
-
-Time to add entry: 4342 ns
-Size of the table: 100
-Number of elements: 144
-Number of collisions: 61
-
-Time to add entry: 2763 ns
-Size of the table: 100
-Number of elements: 145
 Number of collisions: 62
 
 Time to add entry: 1579 ns
 Size of the table: 100
-Number of elements: 146
+Number of elements: 144
 Number of collisions: 63
 
-Time to add entry: 2368 ns
+Time to add entry: 1185 ns
 Size of the table: 100
-Number of elements: 147
-Number of collisions: 63
-
-Time to add entry: 1974 ns
-Size of the table: 100
-Number of elements: 148
+Number of elements: 145
 Number of collisions: 64
 
-Time to add entry: 1974 ns
+Time to add entry: 1184 ns
 Size of the table: 100
-Number of elements: 149
+Number of elements: 146
 Number of collisions: 65
 
-Time to add entry: 1579 ns
+Time to add entry: 789 ns
 Size of the table: 100
-Number of elements: 150
+Number of elements: 147
 Number of collisions: 66
 
-0) Key: 1763226800 value: Entry 107 Key: 835577400 value: Entry 198 
-1) Key: 572127901 value: Entry 52 
-2) Key: 2056030802 value: Entry 59 Key: 734564502 value: Entry 146 
-3) Key: 988122303 value: Entry 72 Key: 130806803 value: Entry 135 Key: 683077503 value: Entry 156 
-4) Key: 562885804 value: Entry 88 
-5) Key: 2090877705 value: Entry 121 Key: 239886705 value: Entry 133 Key: 190922505 value: Entry 148 
-6) null
-7) Key: 1706875907 value: Entry 54 
-8) Key: 619233208 value: Entry 117 
-9) Key: 594962709 value: Entry 162 
-10) Key: 1363973410 value: Entry 113 
-11) Key: 1021591211 value: Entry 99 
-12) Key: 96566312 value: Entry 158 Key: 1779391512 value: Entry 160 
-13) Key: 1126732713 value: Entry 53 
-14) Key: 561725314 value: Entry 81 Key: 1107877714 value: Entry 85 
-15) Key: 1659369815 value: Entry 80 
-16) Key: 1204234616 value: Entry 151 Key: 1865466216 value: Entry 178 
-17) null
-18) null
-19) Key: 1181665619 value: Entry 68 Key: 1332394819 value: Entry 95 Key: 1751049019 value: Entry 129 Key: 1230198819 value: Entry 169 
-20) Key: 369439920 value: Entry 167 
-21) Key: 1711306121 value: Entry 56 Key: 1453496221 value: Entry 98 Key: 75971321 value: Entry 153 Key: 1689328821 value: Entry 193 
-22) Key: 519717122 value: Entry 106 
-23) Key: 1927846923 value: Entry 144 
+Time to add entry: 1184 ns
+Size of the table: 100
+Number of elements: 148
+Number of collisions: 66
+
+Time to add entry: 1185 ns
+Size of the table: 100
+Number of elements: 149
+Number of collisions: 67
+
+Time to add entry: 1184 ns
+Size of the table: 100
+Number of elements: 150
+Number of collisions: 68
+
+0) Key: 174401500 value: Entry 78 Key: 1652114900 value: Entry 128 
+1) Key: 705688501 value: Entry 127 
+2) Key: 2086018902 value: Entry 103 Key: 415958302 value: Entry 107 Key: 527770002 value: Entry 158 
+3) Key: 565941103 value: Entry 52 Key: 1365009303 value: Entry 85 
+4) Key: 8872104 value: Entry 98 Key: 1898195804 value: Entry 199 
+5) Key: 1078650905 value: Entry 126 
+6) Key: 450575706 value: Entry 87 
+7) Key: 1444349607 value: Entry 176 
+8) null
+9) Key: 1086744809 value: Entry 111 Key: 1697791709 value: Entry 188 
+10) Key: 1397970110 value: Entry 169 
+11) Key: 366964311 value: Entry 58 
+12) Key: 1327452412 value: Entry 131 Key: 1785432912 value: Entry 149 
+13) Key: 1307979513 value: Entry 133 Key: 999789613 value: Entry 155 Key: 414995613 value: Entry 171 Key: 860069713 value: Entry 190 
+14) Key: 296368114 value: Entry 83 Key: 1628215914 value: Entry 143 
+15) Key: 457080215 value: Entry 69 Key: 1643158715 value: Entry 89 Key: 1492855415 value: Entry 97 Key: 1497386115 value: Entry 108 
+16) null
+17) Key: 1441204417 value: Entry 71 Key: 402775917 value: Entry 196 
+18) Key: 1967197618 value: Entry 76 
+19) Key: 368397719 value: Entry 57 Key: 1474991319 value: Entry 95 Key: 984394919 value: Entry 200 
+20) Key: 437792920 value: Entry 166 Key: 1361790620 value: Entry 167 
+21) Key: 2125737421 value: Entry 130 
+22) Key: 1267243822 value: Entry 99 Key: 858530822 value: Entry 141 
+23) null
 24) null
-25) null
-26) Key: 112014026 value: Entry 145 
-27) Key: 2097690027 value: Entry 161 Key: 49052927 value: Entry 190 
-28) Key: 227776628 value: Entry 75 Key: 1828055728 value: Entry 189 
-29) Key: 973353529 value: Entry 51 Key: 1629981129 value: Entry 184 
-30) null
-31) Key: 643889831 value: Entry 157 Key: 1935988731 value: Entry 196 
-32) Key: 1621176132 value: Entry 55 
+25) Key: 76694825 value: Entry 62 Key: 978639925 value: Entry 173 Key: 715071225 value: Entry 175 
+26) Key: 1233094926 value: Entry 53 
+27) null
+28) Key: 94099228 value: Entry 113 
+29) Key: 231246829 value: Entry 61 Key: 1227903229 value: Entry 81 
+30) Key: 288679930 value: Entry 86 
+31) Key: 1641583631 value: Entry 114 Key: 476354131 value: Entry 164 
+32) Key: 723084332 value: Entry 151 Key: 56115332 value: Entry 156 Key: 20538232 value: Entry 185 
 33) null
-34) null
-35) null
-36) Key: 689749736 value: Entry 139 
-37) Key: 2121852037 value: Entry 64 Key: 1749938437 value: Entry 115 Key: 724592537 value: Entry 127 
-38) Key: 1358264838 value: Entry 63 Key: 28204138 value: Entry 136 Key: 927221138 value: Entry 137 
-39) Key: 1796132739 value: Entry 66 
-40) Key: 590535840 value: Entry 179 Key: 2119824440 value: Entry 182 
-41) Key: 1013800441 value: Entry 84 Key: 901979341 value: Entry 92 
-42) Key: 863559942 value: Entry 130 Key: 1369772242 value: Entry 170 
-43) Key: 527361843 value: Entry 108 Key: 150745043 value: Entry 149 Key: 538607743 value: Entry 166 
-44) Key: 1640527744 value: Entry 155 
-45) Key: 280220745 value: Entry 61 Key: 767381345 value: Entry 70 Key: 271570845 value: Entry 100 
-46) Key: 851141046 value: Entry 188 
-47) Key: 1850119347 value: Entry 111 Key: 1424611147 value: Entry 159 
-48) Key: 1938164348 value: Entry 94 Key: 1262158348 value: Entry 105 Key: 1765613248 value: Entry 120 
-49) Key: 184591349 value: Entry 79 Key: 1403727449 value: Entry 101 Key: 953997349 value: Entry 152 Key: 425833049 value: Entry 172 
-50) Key: 194471950 value: Entry 164 
-51) Key: 1009942251 value: Entry 194 
-52) Key: 1240422852 value: Entry 143 
-53) Key: 1884597253 value: Entry 83 
-54) Key: 717752254 value: Entry 90 
-55) Key: 81564355 value: Entry 173 Key: 1547261855 value: Entry 176 
-56) null
-57) Key: 1701102757 value: Entry 142 Key: 827139557 value: Entry 187 
-58) Key: 479099958 value: Entry 147 Key: 391344058 value: Entry 174 
-59) Key: 1905612959 value: Entry 109 
-60) Key: 764255860 value: Entry 126 Key: 143691260 value: Entry 186 
-61) null
-62) Key: 1563242962 value: Entry 180 
-63) Key: 2045831963 value: Entry 141 Key: 1065191063 value: Entry 183 
-64) Key: 233873964 value: Entry 168 
-65) Key: 1685823565 value: Entry 150 
-66) Key: 1196955366 value: Entry 134 
-67) Key: 871878067 value: Entry 76 Key: 1007190167 value: Entry 112 Key: 1068788167 value: Entry 191 
-68) null
-69) Key: 830824769 value: Entry 197 
-70) Key: 433521370 value: Entry 116 
-71) Key: 1067569471 value: Entry 73 
-72) Key: 238130072 value: Entry 62 Key: 2019395372 value: Entry 78 
-73) null
-74) Key: 1580413874 value: Entry 74 Key: 9899874 value: Entry 177 
-75) Key: 551961675 value: Entry 67 Key: 921642675 value: Entry 125 
-76) Key: 1060096376 value: Entry 57 Key: 818301176 value: Entry 77 Key: 818201776 value: Entry 104 Key: 1281315376 value: Entry 118 
-77) Key: 991448777 value: Entry 140 
-78) Key: 1213948478 value: Entry 132 
-79) Key: 873348779 value: Entry 65 Key: 1214940179 value: Entry 165 Key: 1528377679 value: Entry 195 
-80) null
-81) Key: 52457581 value: Entry 102 Key: 1723041981 value: Entry 181 
-82) Key: 813946182 value: Entry 58 
-83) Key: 89619183 value: Entry 93 Key: 1881675683 value: Entry 119 
-84) Key: 2080208884 value: Entry 60 Key: 1228087584 value: Entry 86 
-85) Key: 1585395585 value: Entry 185 Key: 875811885 value: Entry 199 
-86) Key: 749077186 value: Entry 96 Key: 1768272786 value: Entry 175 
-87) Key: 205058687 value: Entry 91 Key: 338875387 value: Entry 103 Key: 432714387 value: Entry 171 Key: 103223987 value: Entry 200 
-88) Key: 2059683188 value: Entry 154 
-89) Key: 1296469689 value: Entry 138 
-90) Key: 1727485490 value: Entry 69 Key: 1526048290 value: Entry 114 Key: 1069820490 value: Entry 163 
-91) Key: 63054391 value: Entry 89 
-92) Key: 1060161992 value: Entry 71 Key: 1827921792 value: Entry 123 Key: 1650015292 value: Entry 124 Key: 916228892 value: Entry 128 
-93) Key: 1447392293 value: Entry 82 Key: 1791167793 value: Entry 192 
-94) Key: 720315894 value: Entry 110 Key: 1289519594 value: Entry 122 
-95) Key: 1133164595 value: Entry 131 
-96) Key: 79411396 value: Entry 97 
-97) Key: 1583286297 value: Entry 87 
-98) null
-99) null
+34) Key: 518679834 value: Entry 115 
+35) Key: 1876287735 value: Entry 51 
+36) Key: 1329751236 value: Entry 82 Key: 469034736 value: Entry 179 
+37) Key: 111477737 value: Entry 88 Key: 145981837 value: Entry 139 
+38) Key: 180395938 value: Entry 75 
+39) null
+40) Key: 2006454840 value: Entry 101 Key: 270144740 value: Entry 180 Key: 1681724840 value: Entry 181 
+41) Key: 2024523241 value: Entry 110 
+42) Key: 1173208442 value: Entry 159 
+43) Key: 1541769543 value: Entry 91 Key: 1670492243 value: Entry 119 
+44) Key: 1041467144 value: Entry 116 Key: 1875059044 value: Entry 147 Key: 248410644 value: Entry 163 Key: 1122556444 value: Entry 194 
+45) null
+46) null
+47) null
+48) Key: 626275248 value: Entry 157 Key: 310118748 value: Entry 160 
+49) null
+50) Key: 660034050 value: Entry 56 Key: 1394202850 value: Entry 109 Key: 2070036650 value: Entry 146 Key: 781932250 value: Entry 197 
+51) Key: 327578851 value: Entry 162 
+52) Key: 1723425452 value: Entry 64 
+53) Key: 333738153 value: Entry 60 Key: 1814693753 value: Entry 72 
+54) Key: 1562996854 value: Entry 170 Key: 1572628754 value: Entry 191 
+55) Key: 624492355 value: Entry 105 
+56) Key: 1478318156 value: Entry 123 
+57) Key: 2121261557 value: Entry 134 
+58) Key: 1228153358 value: Entry 63 Key: 967262558 value: Entry 66 Key: 1494189758 value: Entry 124 
+59) Key: 1240826859 value: Entry 74 Key: 1858113559 value: Entry 184 
+60) Key: 92415260 value: Entry 67 Key: 498043560 value: Entry 73 Key: 1828405860 value: Entry 145 
+61) Key: 482389961 value: Entry 65 Key: 2117796361 value: Entry 84 Key: 1736728361 value: Entry 94 
+62) Key: 353418062 value: Entry 106 Key: 1724063662 value: Entry 136 Key: 1994680362 value: Entry 150 
+63) Key: 1097689463 value: Entry 154 Key: 1956149563 value: Entry 189 
+64) Key: 547267664 value: Entry 135 
+65) null
+66) Key: 74337566 value: Entry 102 
+67) Key: 1011416667 value: Entry 104 Key: 1958912467 value: Entry 129 Key: 1372824067 value: Entry 177 
+68) Key: 1396375068 value: Entry 148 
+69) Key: 1374442069 value: Entry 182 
+70) Key: 1928998570 value: Entry 144 
+71) Key: 2137113471 value: Entry 117 Key: 1902943171 value: Entry 165 
+72) Key: 2063941072 value: Entry 122 Key: 386543072 value: Entry 186 
+73) Key: 1885674073 value: Entry 100 Key: 917249873 value: Entry 174 
+74) null
+75) Key: 140855875 value: Entry 59 
+76) Key: 425926876 value: Entry 90 
+77) null
+78) Key: 489365978 value: Entry 121 Key: 1224480878 value: Entry 195 
+79) Key: 767218679 value: Entry 77 
+80) Key: 1303389380 value: Entry 142 
+81) Key: 724438081 value: Entry 96 Key: 1714598681 value: Entry 132 Key: 1693875781 value: Entry 187 
+82) null
+83) Key: 1744704183 value: Entry 198 
+84) Key: 62030384 value: Entry 68 Key: 915641684 value: Entry 172 
+85) null
+86) Key: 2013431886 value: Entry 178 
+87) Key: 457758287 value: Entry 183 
+88) Key: 1574070488 value: Entry 192 
+89) Key: 1927757089 value: Entry 140 Key: 211280589 value: Entry 161 
+90) Key: 77012790 value: Entry 55 Key: 1965091590 value: Entry 79 Key: 193029290 value: Entry 80 Key: 1882188990 value: Entry 138 
+91) Key: 1402977591 value: Entry 125 Key: 175860091 value: Entry 152 
+92) Key: 1797298192 value: Entry 70 Key: 1491301192 value: Entry 112 Key: 1366451692 value: Entry 193 
+93) null
+94) Key: 1513067194 value: Entry 118 Key: 1973369994 value: Entry 153 
+95) Key: 424752895 value: Entry 93 Key: 733631195 value: Entry 168 
+96) null
+97) Key: 1945396797 value: Entry 54 
+98) Key: 430092298 value: Entry 120 Key: 606934398 value: Entry 137 
+99) Key: 620821599 value: Entry 92 
 
 Entry 51
-Time to get entry: 3948 ns
+Time to get entry: 18159 ns
 Entry 52
-Time to get entry: 1974 ns
+Time to get entry: 5132 ns
 Entry 53
-Time to get entry: 1184 ns
+Time to get entry: 1579 ns
 Entry 54
 Time to get entry: 1184 ns
 Entry 55
-Time to get entry: 789 ns
+Time to get entry: 790 ns
 Entry 56
-Time to get entry: 789 ns
+Time to get entry: 1185 ns
 Entry 57
-Time to get entry: 394 ns
-Entry 58
-Time to get entry: 395 ns
-Entry 59
-Time to get entry: 395 ns
-Entry 60
-Time to get entry: 395 ns
-Entry 61
 Time to get entry: 789 ns
+Entry 58
+Time to get entry: 1184 ns
+Entry 59
+Time to get entry: 1579 ns
+Entry 60
+Time to get entry: 790 ns
+Entry 61
+Time to get entry: 1184 ns
 Entry 62
-Time to get entry: 395 ns
+Time to get entry: 789 ns
 Entry 63
-Time to get entry: 395 ns
+Time to get entry: 1184 ns
 Entry 64
 Time to get entry: 790 ns
 Entry 65
-Time to get entry: 395 ns
+Time to get entry: 789 ns
 Entry 66
-Time to get entry: 789 ns
+Time to get entry: 1185 ns
 Entry 67
-Time to get entry: 394 ns
+Time to get entry: 1184 ns
 Entry 68
-Time to get entry: 395 ns
+Time to get entry: 790 ns
 Entry 69
-Time to get entry: 395 ns
+Time to get entry: 789 ns
 Entry 70
-Time to get entry: 790 ns
+Time to get entry: 1184 ns
 Entry 71
-Time to get entry: 395 ns
+Time to get entry: 1184 ns
 Entry 72
-Time to get entry: 394 ns
+Time to get entry: 1184 ns
 Entry 73
-Time to get entry: 395 ns
+Time to get entry: 1184 ns
 Entry 74
-Time to get entry: 790 ns
+Time to get entry: 789 ns
 Entry 75
-Time to get entry: 790 ns
+Time to get entry: 1184 ns
 Entry 76
-Time to get entry: 790 ns
+Time to get entry: 1185 ns
 Entry 77
-Time to get entry: 790 ns
+Time to get entry: 1184 ns
 Entry 78
-Time to get entry: 2369 ns
+Time to get entry: 5527 ns
 Entry 79
-Time to get entry: 395 ns
+Time to get entry: 1184 ns
 Entry 80
-Time to get entry: 789 ns
+Time to get entry: 1185 ns
 Entry 81
-Time to get entry: 394 ns
+Time to get entry: 1579 ns
 Entry 82
-Time to get entry: 395 ns
+Time to get entry: 790 ns
 Entry 83
-Time to get entry: 395 ns
+Time to get entry: 1184 ns
 Entry 84
-Time to get entry: 394 ns
+Time to get entry: 1185 ns
 Entry 85
-Time to get entry: 789 ns
+Time to get entry: 1184 ns
 Entry 86
 Time to get entry: 790 ns
 Entry 87
-Time to get entry: 395 ns
+Time to get entry: 1184 ns
 Entry 88
-Time to get entry: 395 ns
-Entry 89
-Time to get entry: 394 ns
-Entry 90
-Time to get entry: 789 ns
-Entry 91
-Time to get entry: 395 ns
-Entry 92
-Time to get entry: 395 ns
-Entry 93
-Time to get entry: 394 ns
-Entry 94
-Time to get entry: 789 ns
-Entry 95
-Time to get entry: 395 ns
-Entry 96
-Time to get entry: 395 ns
-Entry 97
-Time to get entry: 395 ns
-Entry 98
-Time to get entry: 1579 ns
-Entry 99
-Time to get entry: 395 ns
-Entry 100
-Time to get entry: 789 ns
-Entry 101
-Time to get entry: 395 ns
-Entry 102
 Time to get entry: 790 ns
+Entry 89
+Time to get entry: 1184 ns
+Entry 90
+Time to get entry: 1185 ns
+Entry 91
+Time to get entry: 790 ns
+Entry 92
+Time to get entry: 1184 ns
+Entry 93
+Time to get entry: 1185 ns
+Entry 94
+Time to get entry: 1579 ns
+Entry 95
+Time to get entry: 1184 ns
+Entry 96
+Time to get entry: 790 ns
+Entry 97
+Time to get entry: 1579 ns
+Entry 98
+Time to get entry: 2763 ns
+Entry 99
+Time to get entry: 790 ns
+Entry 100
+Time to get entry: 1184 ns
+Entry 101
+Time to get entry: 790 ns
+Entry 102
+Time to get entry: 1579 ns
 Entry 103
 Time to get entry: 790 ns
 Entry 104
-Time to get entry: 790 ns
+Time to get entry: 789 ns
 Entry 105
-Time to get entry: 395 ns
+Time to get entry: 1184 ns
 Entry 106
 Time to get entry: 790 ns
 Entry 107
-Time to get entry: 395 ns
+Time to get entry: 1185 ns
 Entry 108
-Time to get entry: 394 ns
+Time to get entry: 1579 ns
 Entry 109
-Time to get entry: 395 ns
+Time to get entry: 1184 ns
 Entry 110
-Time to get entry: 790 ns
+Time to get entry: 1184 ns
 Entry 111
-Time to get entry: 790 ns
+Time to get entry: 1184 ns
 Entry 112
-Time to get entry: 395 ns
+Time to get entry: 1579 ns
 Entry 113
-Time to get entry: 789 ns
+Time to get entry: 1184 ns
 Entry 114
-Time to get entry: 789 ns
+Time to get entry: 1184 ns
 Entry 115
-Time to get entry: 395 ns
+Time to get entry: 1185 ns
 Entry 116
-Time to get entry: 395 ns
+Time to get entry: 1184 ns
 Entry 117
-Time to get entry: 790 ns
+Time to get entry: 1184 ns
 Entry 118
-Time to get entry: 789 ns
+Time to get entry: 1185 ns
 Entry 119
-Time to get entry: 789 ns
+Time to get entry: 1184 ns
 Entry 120
-Time to get entry: 789 ns
+Time to get entry: 1184 ns
 Entry 121
-Time to get entry: 395 ns
+Time to get entry: 790 ns
 Entry 122
-Time to get entry: 790 ns
+Time to get entry: 1184 ns
 Entry 123
-Time to get entry: 395 ns
+Time to get entry: 1185 ns
 Entry 124
-Time to get entry: 790 ns
+Time to get entry: 1184 ns
 Entry 125
-Time to get entry: 394 ns
+Time to get entry: 790 ns
 Entry 126
 Time to get entry: 789 ns
 Entry 127
-Time to get entry: 395 ns
+Time to get entry: 1184 ns
 Entry 128
-Time to get entry: 790 ns
+Time to get entry: 1579 ns
 Entry 129
-Time to get entry: 395 ns
+Time to get entry: 1184 ns
 Entry 130
-Time to get entry: 790 ns
+Time to get entry: 1185 ns
 Entry 131
-Time to get entry: 395 ns
-Entry 132
-Time to get entry: 395 ns
-Entry 133
 Time to get entry: 789 ns
+Entry 132
+Time to get entry: 1184 ns
+Entry 133
+Time to get entry: 790 ns
 Entry 134
 Time to get entry: 1184 ns
 Entry 135
-Time to get entry: 789 ns
+Time to get entry: 1184 ns
 Entry 136
-Time to get entry: 395 ns
+Time to get entry: 1185 ns
 Entry 137
-Time to get entry: 790 ns
+Time to get entry: 1184 ns
 Entry 138
-Time to get entry: 790 ns
+Time to get entry: 1185 ns
 Entry 139
-Time to get entry: 395 ns
+Time to get entry: 1184 ns
 Entry 140
-Time to get entry: 394 ns
+Time to get entry: 1185 ns
 Entry 141
-Time to get entry: 395 ns
+Time to get entry: 1184 ns
 Entry 142
-Time to get entry: 395 ns
+Time to get entry: 1184 ns
 Entry 143
-Time to get entry: 395 ns
+Time to get entry: 1185 ns
 Entry 144
-Time to get entry: 395 ns
+Time to get entry: 1184 ns
 Entry 145
-Time to get entry: 395 ns
+Time to get entry: 1184 ns
 Entry 146
-Time to get entry: 790 ns
+Time to get entry: 1184 ns
 Entry 147
-Time to get entry: 789 ns
+Time to get entry: 1579 ns
 Entry 148
-Time to get entry: 789 ns
+Time to get entry: 1184 ns
 Entry 149
-Time to get entry: 394 ns
+Time to get entry: 1185 ns
 Entry 150
-Time to get entry: 790 ns
+Time to get entry: 1184 ns
 Entry 151
-Time to get entry: 395 ns
+Time to get entry: 789 ns
 Entry 152
-Time to get entry: 395 ns
+Time to get entry: 1184 ns
 Entry 153
-Time to get entry: 789 ns
+Time to get entry: 1184 ns
 Entry 154
-Time to get entry: 789 ns
+Time to get entry: 1579 ns
 Entry 155
-Time to get entry: 394 ns
+Time to get entry: 1184 ns
 Entry 156
-Time to get entry: 789 ns
+Time to get entry: 1184 ns
 Entry 157
-Time to get entry: 395 ns
+Time to get entry: 790 ns
 Entry 158
-Time to get entry: 790 ns
+Time to get entry: 1184 ns
 Entry 159
-Time to get entry: 790 ns
+Time to get entry: 1184 ns
 Entry 160
-Time to get entry: 395 ns
+Time to get entry: 1184 ns
 Entry 161
-Time to get entry: 790 ns
+Time to get entry: 1184 ns
 Entry 162
-Time to get entry: 394 ns
+Time to get entry: 1184 ns
 Entry 163
-Time to get entry: 395 ns
+Time to get entry: 1184 ns
 Entry 164
-Time to get entry: 395 ns
+Time to get entry: 1185 ns
 Entry 165
-Time to get entry: 790 ns
+Time to get entry: 1184 ns
 Entry 166
-Time to get entry: 395 ns
+Time to get entry: 790 ns
 Entry 167
-Time to get entry: 394 ns
+Time to get entry: 1184 ns
 Entry 168
-Time to get entry: 789 ns
+Time to get entry: 1184 ns
 Entry 169
 Time to get entry: 790 ns
 Entry 170
-Time to get entry: 790 ns
+Time to get entry: 1184 ns
 Entry 171
-Time to get entry: 790 ns
+Time to get entry: 1579 ns
 Entry 172
-Time to get entry: 790 ns
+Time to get entry: 1579 ns
 Entry 173
-Time to get entry: 395 ns
+Time to get entry: 1579 ns
 Entry 174
-Time to get entry: 395 ns
+Time to get entry: 1579 ns
 Entry 175
-Time to get entry: 789 ns
+Time to get entry: 1185 ns
 Entry 176
-Time to get entry: 395 ns
+Time to get entry: 789 ns
 Entry 177
-Time to get entry: 395 ns
+Time to get entry: 1579 ns
 Entry 178
 Time to get entry: 790 ns
 Entry 179
-Time to get entry: 789 ns
+Time to get entry: 1184 ns
 Entry 180
-Time to get entry: 394 ns
+Time to get entry: 1184 ns
 Entry 181
-Time to get entry: 395 ns
+Time to get entry: 1579 ns
 Entry 182
-Time to get entry: 395 ns
+Time to get entry: 790 ns
 Entry 183
-Time to get entry: 790 ns
-Entry 184
-Time to get entry: 395 ns
-Entry 185
-Time to get entry: 395 ns
-Entry 186
-Time to get entry: 789 ns
-Entry 187
-Time to get entry: 394 ns
-Entry 188
-Time to get entry: 789 ns
-Entry 189
-Time to get entry: 395 ns
-Entry 190
-Time to get entry: 790 ns
-Entry 191
-Time to get entry: 790 ns
-Entry 192
-Time to get entry: 790 ns
-Entry 193
-Time to get entry: 790 ns
-Entry 194
-Time to get entry: 790 ns
-Entry 195
-Time to get entry: 789 ns
-Entry 196
-Time to get entry: 394 ns
-Entry 197
-Time to get entry: 789 ns
-Entry 198
-Time to get entry: 790 ns
-Entry 199
-Time to get entry: 790 ns
-Entry 200
 Time to get entry: 1185 ns
+Entry 184
+Time to get entry: 1184 ns
+Entry 185
+Time to get entry: 1185 ns
+Entry 186
+Time to get entry: 1184 ns
+Entry 187
+Time to get entry: 1579 ns
+Entry 188
+Time to get entry: 1184 ns
+Entry 189
+Time to get entry: 1184 ns
+Entry 190
+Time to get entry: 1185 ns
+Entry 191
+Time to get entry: 1184 ns
+Entry 192
+Time to get entry: 1185 ns
+Entry 193
+Time to get entry: 1184 ns
+Entry 194
+Time to get entry: 1579 ns
+Entry 195
+Time to get entry: 1185 ns
+Entry 196
+Time to get entry: 1184 ns
+Entry 197
+Time to get entry: 1579 ns
+Entry 198
+Time to get entry: 1185 ns
+Entry 199
+Time to get entry: 1184 ns
+Entry 200
+Time to get entry: 1579 ns
+Time to remove entry: 3552 ns
+Time to remove entry: 7895 ns
 Time to remove entry: 1974 ns
-Time to remove entry: 2763 ns
+Time to remove entry: 1579 ns
+Time to remove entry: 1185 ns
 Time to remove entry: 1184 ns
-Time to remove entry: 789 ns
+Time to remove entry: 1184 ns
 Time to remove entry: 790 ns
-Time to remove entry: 789 ns
+Time to remove entry: 1974 ns
 Time to remove entry: 790 ns
-Time to remove entry: 790 ns
-Time to remove entry: 789 ns
-Time to remove entry: 789 ns
-Time to remove entry: 790 ns
-Time to remove entry: 789 ns
-Time to remove entry: 789 ns
-Time to remove entry: 790 ns
-Time to remove entry: 790 ns
-Time to remove entry: 789 ns
-Time to remove entry: 790 ns
+Time to remove entry: 1184 ns
+Time to remove entry: 1185 ns
+Time to remove entry: 1184 ns
+Time to remove entry: 3948 ns
 Time to remove entry: 2368 ns
 Time to remove entry: 1184 ns
+Time to remove entry: 1184 ns
+Time to remove entry: 789 ns
+Time to remove entry: 789 ns
+Time to remove entry: 1185 ns
+Time to remove entry: 1184 ns
 Time to remove entry: 789 ns
 Time to remove entry: 790 ns
-Time to remove entry: 789 ns
+Time to remove entry: 1184 ns
 Time to remove entry: 790 ns
-Time to remove entry: 789 ns
-Time to remove entry: 790 ns
-0) Key: 1763226800 value: Entry 107 Key: 835577400 value: Entry 198 
-1) null
-2) Key: 734564502 value: Entry 146 
-3) Key: 130806803 value: Entry 135 Key: 683077503 value: Entry 156 
-4) Key: 562885804 value: Entry 88 
-5) Key: 2090877705 value: Entry 121 Key: 239886705 value: Entry 133 Key: 190922505 value: Entry 148 
-6) null
-7) null
-8) Key: 619233208 value: Entry 117 
-9) Key: 594962709 value: Entry 162 
-10) Key: 1363973410 value: Entry 113 
-11) Key: 1021591211 value: Entry 99 
-12) Key: 96566312 value: Entry 158 Key: 1779391512 value: Entry 160 
-13) null
-14) Key: 561725314 value: Entry 81 Key: 1107877714 value: Entry 85 
-15) Key: 1659369815 value: Entry 80 
-16) Key: 1204234616 value: Entry 151 Key: 1865466216 value: Entry 178 
-17) null
-18) null
-19) Key: 1332394819 value: Entry 95 Key: 1751049019 value: Entry 129 Key: 1230198819 value: Entry 169 
-20) Key: 369439920 value: Entry 167 
-21) Key: 1453496221 value: Entry 98 Key: 75971321 value: Entry 153 Key: 1689328821 value: Entry 193 
-22) Key: 519717122 value: Entry 106 
-23) Key: 1927846923 value: Entry 144 
+0) Key: 174401500 value: Entry 78 Key: 1652114900 value: Entry 128 
+1) Key: 705688501 value: Entry 127 
+2) Key: 2086018902 value: Entry 103 Key: 415958302 value: Entry 107 Key: 527770002 value: Entry 158 
+3) Key: 1365009303 value: Entry 85 
+4) Key: 8872104 value: Entry 98 Key: 1898195804 value: Entry 199 
+5) Key: 1078650905 value: Entry 126 
+6) Key: 450575706 value: Entry 87 
+7) Key: 1444349607 value: Entry 176 
+8) null
+9) Key: 1086744809 value: Entry 111 Key: 1697791709 value: Entry 188 
+10) Key: 1397970110 value: Entry 169 
+11) null
+12) Key: 1327452412 value: Entry 131 Key: 1785432912 value: Entry 149 
+13) Key: 1307979513 value: Entry 133 Key: 999789613 value: Entry 155 Key: 414995613 value: Entry 171 Key: 860069713 value: Entry 190 
+14) Key: 296368114 value: Entry 83 Key: 1628215914 value: Entry 143 
+15) Key: 1643158715 value: Entry 89 Key: 1492855415 value: Entry 97 Key: 1497386115 value: Entry 108 
+16) null
+17) Key: 402775917 value: Entry 196 
+18) Key: 1967197618 value: Entry 76 
+19) Key: 1474991319 value: Entry 95 Key: 984394919 value: Entry 200 
+20) Key: 437792920 value: Entry 166 Key: 1361790620 value: Entry 167 
+21) Key: 2125737421 value: Entry 130 
+22) Key: 1267243822 value: Entry 99 Key: 858530822 value: Entry 141 
+23) null
 24) null
-25) null
-26) Key: 112014026 value: Entry 145 
-27) Key: 2097690027 value: Entry 161 Key: 49052927 value: Entry 190 
-28) Key: 1828055728 value: Entry 189 
-29) Key: 1629981129 value: Entry 184 
-30) null
-31) Key: 643889831 value: Entry 157 Key: 1935988731 value: Entry 196 
-32) null
+25) Key: 978639925 value: Entry 173 Key: 715071225 value: Entry 175 
+26) null
+27) null
+28) Key: 94099228 value: Entry 113 
+29) Key: 1227903229 value: Entry 81 
+30) Key: 288679930 value: Entry 86 
+31) Key: 1641583631 value: Entry 114 Key: 476354131 value: Entry 164 
+32) Key: 723084332 value: Entry 151 Key: 56115332 value: Entry 156 Key: 20538232 value: Entry 185 
 33) null
-34) null
+34) Key: 518679834 value: Entry 115 
 35) null
-36) Key: 689749736 value: Entry 139 
-37) Key: 1749938437 value: Entry 115 Key: 724592537 value: Entry 127 
-38) Key: 28204138 value: Entry 136 Key: 927221138 value: Entry 137 
+36) Key: 1329751236 value: Entry 82 Key: 469034736 value: Entry 179 
+37) Key: 111477737 value: Entry 88 Key: 145981837 value: Entry 139 
+38) null
 39) null
-40) Key: 590535840 value: Entry 179 Key: 2119824440 value: Entry 182 
-41) Key: 1013800441 value: Entry 84 Key: 901979341 value: Entry 92 
-42) Key: 863559942 value: Entry 130 Key: 1369772242 value: Entry 170 
-43) Key: 527361843 value: Entry 108 Key: 150745043 value: Entry 149 Key: 538607743 value: Entry 166 
-44) Key: 1640527744 value: Entry 155 
-45) Key: 271570845 value: Entry 100 
-46) Key: 851141046 value: Entry 188 
-47) Key: 1850119347 value: Entry 111 Key: 1424611147 value: Entry 159 
-48) Key: 1938164348 value: Entry 94 Key: 1262158348 value: Entry 105 Key: 1765613248 value: Entry 120 
-49) Key: 184591349 value: Entry 79 Key: 1403727449 value: Entry 101 Key: 953997349 value: Entry 152 Key: 425833049 value: Entry 172 
-50) Key: 194471950 value: Entry 164 
-51) Key: 1009942251 value: Entry 194 
-52) Key: 1240422852 value: Entry 143 
-53) Key: 1884597253 value: Entry 83 
-54) Key: 717752254 value: Entry 90 
-55) Key: 81564355 value: Entry 173 Key: 1547261855 value: Entry 176 
-56) null
-57) Key: 1701102757 value: Entry 142 Key: 827139557 value: Entry 187 
-58) Key: 479099958 value: Entry 147 Key: 391344058 value: Entry 174 
-59) Key: 1905612959 value: Entry 109 
-60) Key: 764255860 value: Entry 126 Key: 143691260 value: Entry 186 
-61) null
-62) Key: 1563242962 value: Entry 180 
-63) Key: 2045831963 value: Entry 141 Key: 1065191063 value: Entry 183 
-64) Key: 233873964 value: Entry 168 
-65) Key: 1685823565 value: Entry 150 
-66) Key: 1196955366 value: Entry 134 
-67) Key: 871878067 value: Entry 76 Key: 1007190167 value: Entry 112 Key: 1068788167 value: Entry 191 
-68) null
-69) Key: 830824769 value: Entry 197 
-70) Key: 433521370 value: Entry 116 
-71) null
-72) Key: 2019395372 value: Entry 78 
-73) null
-74) Key: 9899874 value: Entry 177 
-75) Key: 921642675 value: Entry 125 
-76) Key: 818301176 value: Entry 77 Key: 818201776 value: Entry 104 Key: 1281315376 value: Entry 118 
-77) Key: 991448777 value: Entry 140 
-78) Key: 1213948478 value: Entry 132 
-79) Key: 1214940179 value: Entry 165 Key: 1528377679 value: Entry 195 
-80) null
-81) Key: 52457581 value: Entry 102 Key: 1723041981 value: Entry 181 
+40) Key: 2006454840 value: Entry 101 Key: 270144740 value: Entry 180 Key: 1681724840 value: Entry 181 
+41) Key: 2024523241 value: Entry 110 
+42) Key: 1173208442 value: Entry 159 
+43) Key: 1541769543 value: Entry 91 Key: 1670492243 value: Entry 119 
+44) Key: 1041467144 value: Entry 116 Key: 1875059044 value: Entry 147 Key: 248410644 value: Entry 163 Key: 1122556444 value: Entry 194 
+45) null
+46) null
+47) null
+48) Key: 626275248 value: Entry 157 Key: 310118748 value: Entry 160 
+49) null
+50) Key: 1394202850 value: Entry 109 Key: 2070036650 value: Entry 146 Key: 781932250 value: Entry 197 
+51) Key: 327578851 value: Entry 162 
+52) null
+53) null
+54) Key: 1562996854 value: Entry 170 Key: 1572628754 value: Entry 191 
+55) Key: 624492355 value: Entry 105 
+56) Key: 1478318156 value: Entry 123 
+57) Key: 2121261557 value: Entry 134 
+58) Key: 1494189758 value: Entry 124 
+59) Key: 1858113559 value: Entry 184 
+60) Key: 1828405860 value: Entry 145 
+61) Key: 2117796361 value: Entry 84 Key: 1736728361 value: Entry 94 
+62) Key: 353418062 value: Entry 106 Key: 1724063662 value: Entry 136 Key: 1994680362 value: Entry 150 
+63) Key: 1097689463 value: Entry 154 Key: 1956149563 value: Entry 189 
+64) Key: 547267664 value: Entry 135 
+65) null
+66) Key: 74337566 value: Entry 102 
+67) Key: 1011416667 value: Entry 104 Key: 1958912467 value: Entry 129 Key: 1372824067 value: Entry 177 
+68) Key: 1396375068 value: Entry 148 
+69) Key: 1374442069 value: Entry 182 
+70) Key: 1928998570 value: Entry 144 
+71) Key: 2137113471 value: Entry 117 Key: 1902943171 value: Entry 165 
+72) Key: 2063941072 value: Entry 122 Key: 386543072 value: Entry 186 
+73) Key: 1885674073 value: Entry 100 Key: 917249873 value: Entry 174 
+74) null
+75) null
+76) Key: 425926876 value: Entry 90 
+77) null
+78) Key: 489365978 value: Entry 121 Key: 1224480878 value: Entry 195 
+79) Key: 767218679 value: Entry 77 
+80) Key: 1303389380 value: Entry 142 
+81) Key: 724438081 value: Entry 96 Key: 1714598681 value: Entry 132 Key: 1693875781 value: Entry 187 
 82) null
-83) Key: 89619183 value: Entry 93 Key: 1881675683 value: Entry 119 
-84) Key: 1228087584 value: Entry 86 
-85) Key: 1585395585 value: Entry 185 Key: 875811885 value: Entry 199 
-86) Key: 749077186 value: Entry 96 Key: 1768272786 value: Entry 175 
-87) Key: 205058687 value: Entry 91 Key: 338875387 value: Entry 103 Key: 432714387 value: Entry 171 Key: 103223987 value: Entry 200 
-88) Key: 2059683188 value: Entry 154 
-89) Key: 1296469689 value: Entry 138 
-90) Key: 1526048290 value: Entry 114 Key: 1069820490 value: Entry 163 
-91) Key: 63054391 value: Entry 89 
-92) Key: 1827921792 value: Entry 123 Key: 1650015292 value: Entry 124 Key: 916228892 value: Entry 128 
-93) Key: 1447392293 value: Entry 82 Key: 1791167793 value: Entry 192 
-94) Key: 720315894 value: Entry 110 Key: 1289519594 value: Entry 122 
-95) Key: 1133164595 value: Entry 131 
-96) Key: 79411396 value: Entry 97 
-97) Key: 1583286297 value: Entry 87 
-98) null
-99) null
+83) Key: 1744704183 value: Entry 198 
+84) Key: 915641684 value: Entry 172 
+85) null
+86) Key: 2013431886 value: Entry 178 
+87) Key: 457758287 value: Entry 183 
+88) Key: 1574070488 value: Entry 192 
+89) Key: 1927757089 value: Entry 140 Key: 211280589 value: Entry 161 
+90) Key: 1965091590 value: Entry 79 Key: 193029290 value: Entry 80 Key: 1882188990 value: Entry 138 
+91) Key: 1402977591 value: Entry 125 Key: 175860091 value: Entry 152 
+92) Key: 1491301192 value: Entry 112 Key: 1366451692 value: Entry 193 
+93) null
+94) Key: 1513067194 value: Entry 118 Key: 1973369994 value: Entry 153 
+95) Key: 424752895 value: Entry 93 Key: 733631195 value: Entry 168 
+96) null
+97) null
+98) Key: 430092298 value: Entry 120 Key: 606934398 value: Entry 137 
+99) Key: 620821599 value: Entry 92 
 
 null
-Time to get entry: 12632 ns
+Time to get entry: 2764 ns
 null
-Time to get entry: 1184 ns
-null
-Time to get entry: 790 ns
-null
-Time to get entry: 395 ns
-null
-Time to get entry: 395 ns
-null
-Time to get entry: 3553 ns
-null
-Time to get entry: 1184 ns
-null
-Time to get entry: 789 ns
-null
-Time to get entry: 790 ns
-null
-Time to get entry: 790 ns
-null
-Time to get entry: 790 ns
-null
-Time to get entry: 1185 ns
-null
-Time to get entry: 1184 ns
-null
-Time to get entry: 1184 ns
-null
-Time to get entry: 790 ns
-null
-Time to get entry: 789 ns
-null
-Time to get entry: 1184 ns
+Time to get entry: 3159 ns
 null
 Time to get entry: 1185 ns
 null
 Time to get entry: 790 ns
 null
-Time to get entry: 789 ns
-null
-Time to get entry: 1184 ns
-null
-Time to get entry: 1185 ns
-null
-Time to get entry: 395 ns
-null
-Time to get entry: 789 ns
-null
-Time to get entry: 789 ns
-Entry 76
 Time to get entry: 1579 ns
+null
+Time to get entry: 12238 ns
+null
+Time to get entry: 1579 ns
+null
+Time to get entry: 790 ns
+null
+Time to get entry: 789 ns
+null
+Time to get entry: 790 ns
+null
+Time to get entry: 1184 ns
+null
+Time to get entry: 1184 ns
+null
+Time to get entry: 789 ns
+null
+Time to get entry: 789 ns
+null
+Time to get entry: 1580 ns
+null
+Time to get entry: 789 ns
+null
+Time to get entry: 789 ns
+null
+Time to get entry: 790 ns
+null
+Time to get entry: 1579 ns
+null
+Time to get entry: 1579 ns
+null
+Time to get entry: 789 ns
+null
+Time to get entry: 789 ns
+null
+Time to get entry: 789 ns
+null
+Time to get entry: 1185 ns
+null
+Time to get entry: 395 ns
+Entry 76
+Time to get entry: 789 ns
 Entry 77
 Time to get entry: 789 ns
 Entry 78
-Time to get entry: 789 ns
+Time to get entry: 790 ns
 Entry 79
-Time to get entry: 1185 ns
+Time to get entry: 790 ns
 Entry 80
-Time to get entry: 1184 ns
+Time to get entry: 2763 ns
 Entry 81
 Time to get entry: 1184 ns
 Entry 82
-Time to get entry: 790 ns
+Time to get entry: 789 ns
 Entry 83
-Time to get entry: 4737 ns
+Time to get entry: 1185 ns
 Entry 84
 Time to get entry: 1184 ns
 Entry 85
-Time to get entry: 789 ns
-Entry 86
-Time to get entry: 790 ns
-Entry 87
 Time to get entry: 1184 ns
+Entry 86
+Time to get entry: 1184 ns
+Entry 87
+Time to get entry: 790 ns
 Entry 88
-Time to get entry: 1185 ns
+Time to get entry: 1184 ns
 Entry 89
-Time to get entry: 1185 ns
+Time to get entry: 1184 ns
 Entry 90
-Time to get entry: 789 ns
+Time to get entry: 790 ns
 Entry 91
-Time to get entry: 789 ns
+Time to get entry: 1184 ns
 Entry 92
-Time to get entry: 789 ns
+Time to get entry: 1184 ns
 Entry 93
-Time to get entry: 1185 ns
+Time to get entry: 1184 ns
 Entry 94
 Time to get entry: 1184 ns
 Entry 95
-Time to get entry: 790 ns
+Time to get entry: 1184 ns
 Entry 96
-Time to get entry: 790 ns
+Time to get entry: 1184 ns
 Entry 97
-Time to get entry: 790 ns
-Entry 98
-Time to get entry: 1184 ns
-Entry 99
-Time to get entry: 789 ns
-Entry 100
-Time to get entry: 790 ns
-Entry 101
 Time to get entry: 1185 ns
-Entry 102
+Entry 98
+Time to get entry: 790 ns
+Entry 99
 Time to get entry: 1184 ns
-Entry 103
+Entry 100
+Time to get entry: 1185 ns
+Entry 101
+Time to get entry: 1184 ns
+Entry 102
 Time to get entry: 789 ns
+Entry 103
+Time to get entry: 1185 ns
 Entry 104
 Time to get entry: 789 ns
 Entry 105
-Time to get entry: 790 ns
+Time to get entry: 1184 ns
 Entry 106
 Time to get entry: 790 ns
 Entry 107
-Time to get entry: 790 ns
+Time to get entry: 1184 ns
 Entry 108
-Time to get entry: 789 ns
+Time to get entry: 1184 ns
 Entry 109
-Time to get entry: 789 ns
+Time to get entry: 790 ns
 Entry 110
-Time to get entry: 790 ns
+Time to get entry: 1579 ns
 Entry 111
-Time to get entry: 790 ns
+Time to get entry: 789 ns
 Entry 112
-Time to get entry: 790 ns
+Time to get entry: 789 ns
 Entry 113
 Time to get entry: 790 ns
 Entry 114
-Time to get entry: 789 ns
+Time to get entry: 790 ns
 Entry 115
 Time to get entry: 789 ns
 Entry 116
-Time to get entry: 790 ns
-Entry 117
-Time to get entry: 790 ns
-Entry 118
-Time to get entry: 790 ns
-Entry 119
-Time to get entry: 789 ns
-Entry 120
-Time to get entry: 1184 ns
-Entry 121
-Time to get entry: 790 ns
-Entry 122
-Time to get entry: 790 ns
-Entry 123
-Time to get entry: 790 ns
-Entry 124
-Time to get entry: 790 ns
-Entry 125
-Time to get entry: 789 ns
-Entry 126
-Time to get entry: 789 ns
-Entry 127
-Time to get entry: 790 ns
-Entry 128
 Time to get entry: 1185 ns
+Entry 117
+Time to get entry: 789 ns
+Entry 118
+Time to get entry: 789 ns
+Entry 119
+Time to get entry: 1184 ns
+Entry 120
+Time to get entry: 790 ns
+Entry 121
+Time to get entry: 1184 ns
+Entry 122
+Time to get entry: 789 ns
+Entry 123
+Time to get entry: 1579 ns
+Entry 124
+Time to get entry: 1184 ns
+Entry 125
+Time to get entry: 790 ns
+Entry 126
+Time to get entry: 1185 ns
+Entry 127
+Time to get entry: 1184 ns
+Entry 128
+Time to get entry: 1184 ns
 Entry 129
 Time to get entry: 1579 ns
 Entry 130
-Time to get entry: 1185 ns
+Time to get entry: 1184 ns
 Entry 131
 Time to get entry: 1184 ns
 Entry 132
-Time to get entry: 1184 ns
+Time to get entry: 1185 ns
 Entry 133
-Time to get entry: 1184 ns
+Time to get entry: 790 ns
 Entry 134
 Time to get entry: 1184 ns
 Entry 135
-Time to get entry: 790 ns
+Time to get entry: 20133 ns
 Entry 136
-Time to get entry: 790 ns
-Entry 137
 Time to get entry: 1579 ns
+Entry 137
+Time to get entry: 1185 ns
 Entry 138
 Time to get entry: 1184 ns
 Entry 139
-Time to get entry: 2369 ns
+Time to get entry: 1579 ns
 Entry 140
-Time to get entry: 1973 ns
+Time to get entry: 790 ns
 Entry 141
-Time to get entry: 1579 ns
+Time to get entry: 1184 ns
 Entry 142
-Time to get entry: 1579 ns
+Time to get entry: 1184 ns
 Entry 143
-Time to get entry: 789 ns
+Time to get entry: 1185 ns
 Entry 144
-Time to get entry: 789 ns
+Time to get entry: 1184 ns
 Entry 145
-Time to get entry: 790 ns
+Time to get entry: 1184 ns
 Entry 146
-Time to get entry: 790 ns
+Time to get entry: 1185 ns
 Entry 147
 Time to get entry: 1184 ns
 Entry 148
-Time to get entry: 1184 ns
+Time to get entry: 1185 ns
 Entry 149
-Time to get entry: 1579 ns
+Time to get entry: 1184 ns
 Entry 150
-Time to get entry: 1974 ns
+Time to get entry: 1184 ns
 Entry 151
-Time to get entry: 790 ns
+Time to get entry: 1184 ns
 Entry 152
 Time to get entry: 1184 ns
 Entry 153
-Time to get entry: 1974 ns
+Time to get entry: 1185 ns
 Entry 154
-Time to get entry: 1579 ns
-Entry 155
-Time to get entry: 790 ns
-Entry 156
-Time to get entry: 790 ns
-Entry 157
-Time to get entry: 790 ns
-Entry 158
 Time to get entry: 1184 ns
-Entry 159
-Time to get entry: 790 ns
-Entry 160
-Time to get entry: 790 ns
-Entry 161
+Entry 155
 Time to get entry: 789 ns
+Entry 156
+Time to get entry: 1185 ns
+Entry 157
+Time to get entry: 789 ns
+Entry 158
+Time to get entry: 1579 ns
+Entry 159
+Time to get entry: 1184 ns
+Entry 160
+Time to get entry: 789 ns
+Entry 161
+Time to get entry: 1579 ns
 Entry 162
 Time to get entry: 789 ns
 Entry 163
-Time to get entry: 789 ns
+Time to get entry: 1579 ns
 Entry 164
-Time to get entry: 790 ns
+Time to get entry: 1579 ns
 Entry 165
-Time to get entry: 790 ns
+Time to get entry: 1184 ns
 Entry 166
 Time to get entry: 789 ns
 Entry 167
-Time to get entry: 789 ns
+Time to get entry: 790 ns
 Entry 168
-Time to get entry: 790 ns
+Time to get entry: 1184 ns
 Entry 169
-Time to get entry: 790 ns
+Time to get entry: 789 ns
 Entry 170
-Time to get entry: 789 ns
+Time to get entry: 1185 ns
 Entry 171
-Time to get entry: 789 ns
+Time to get entry: 1579 ns
 Entry 172
 Time to get entry: 789 ns
 Entry 173
-Time to get entry: 394 ns
+Time to get entry: 789 ns
 Entry 174
 Time to get entry: 790 ns
 Entry 175
-Time to get entry: 395 ns
+Time to get entry: 1184 ns
 Entry 176
-Time to get entry: 790 ns
+Time to get entry: 1184 ns
 Entry 177
-Time to get entry: 790 ns
+Time to get entry: 1579 ns
 Entry 178
-Time to get entry: 790 ns
+Time to get entry: 789 ns
 Entry 179
 Time to get entry: 789 ns
 Entry 180
-Time to get entry: 789 ns
-Entry 181
-Time to get entry: 1184 ns
-Entry 182
-Time to get entry: 395 ns
-Entry 183
-Time to get entry: 1184 ns
-Entry 184
-Time to get entry: 5132 ns
-Entry 185
-Time to get entry: 789 ns
-Entry 186
-Time to get entry: 395 ns
-Entry 187
-Time to get entry: 790 ns
-Entry 188
-Time to get entry: 790 ns
-Entry 189
-Time to get entry: 395 ns
-Entry 190
-Time to get entry: 789 ns
-Entry 191
-Time to get entry: 789 ns
-Entry 192
-Time to get entry: 789 ns
-Entry 193
 Time to get entry: 1185 ns
+Entry 181
+Time to get entry: 1185 ns
+Entry 182
+Time to get entry: 789 ns
+Entry 183
+Time to get entry: 789 ns
+Entry 184
+Time to get entry: 789 ns
+Entry 185
+Time to get entry: 1185 ns
+Entry 186
+Time to get entry: 1184 ns
+Entry 187
+Time to get entry: 1184 ns
+Entry 188
+Time to get entry: 1185 ns
+Entry 189
+Time to get entry: 1185 ns
+Entry 190
+Time to get entry: 1184 ns
+Entry 191
+Time to get entry: 790 ns
+Entry 192
+Time to get entry: 1184 ns
+Entry 193
+Time to get entry: 789 ns
 Entry 194
-Time to get entry: 790 ns
+Time to get entry: 1579 ns
 Entry 195
-Time to get entry: 789 ns
+Time to get entry: 1185 ns
 Entry 196
-Time to get entry: 1184 ns
-Entry 197
-Time to get entry: 790 ns
-Entry 198
-Time to get entry: 1184 ns
-Entry 199
-Time to get entry: 790 ns
-Entry 200
 Time to get entry: 789 ns
+Entry 197
+Time to get entry: 789 ns
+Entry 198
+Time to get entry: 790 ns
+Entry 199
+Time to get entry: 1184 ns
+Entry 200
+Time to get entry: 1184 ns
