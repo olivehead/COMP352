@@ -52,7 +52,7 @@ public class ChainHashMap extends AbstractHashMap {
     public String toString() {
         String s = "";
         for(int i = 0; i < table.length; i++) {
-            s += i + ") " + table[i] + "\n";
+            s += i + ") " + table[i] + "\r\n";
         }
         return s;
     }

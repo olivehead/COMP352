@@ -43,10 +43,7 @@ public class QuadraticProbeHashMap extends AbstractHashMap {
         return table[j].getValue();
     }
 
-    protected String bucketPut(int h, int k, String v) throws MapFullException {
-//        if(size() == capacity) {
-//            throw new MapFullException("Hash Map is full");
-//        }
+    protected String bucketPut(int h, int k, String v) {
         int j = findSlot(h, k);
         if(j >= 0) {
             n++;
@@ -72,7 +69,7 @@ public class QuadraticProbeHashMap extends AbstractHashMap {
         return answer;
     }
 
-    private void resize() throws MapFullException {
+    private void resize() {
         int prevCapacity = capacity;
         capacity = 2 * table.length;
         MapEntry[] oldTable = table;
@@ -89,7 +86,7 @@ public class QuadraticProbeHashMap extends AbstractHashMap {
     public String toString() {
         String s = "";
         for(int i = 0; i < capacity; i++) {
-            s += i + ") " + table[i] + "\n";
+            s += i + ") " + table[i] + "\r\n";
         }
         return s;
     }
